@@ -1,6 +1,6 @@
 // Recherche d'une vidéo de match sur une chaîne YouTube (page de recherche de la chaîne, JSON ytInitialData).
 // Une vidéo n'est retenue que si son titre contient les deux équipes, une mention « women/féminin »
-// et la date du match (± 1 jour).
+// et la date du match (± 1 jour). Chaque vidéo retenue est classée : match complet, résumé ou autre.
 import { fetchText } from '../lib/http.mjs';
 import { teamSimilarity } from '../lib/match.mjs';
 import { addDays } from '../lib/time.mjs';
@@ -19,6 +19,23 @@ export function titleDate(title) {
   return null;
 }
 
+// « 1:52:07 » ou « 9:41 » → secondes
+function seconds(text) {
+  if (!/^\d+(:\d{2}){1,2}$/.test(text ?? '')) return null;
+  return text.split(':').reduce((a, x) => a * 60 + Number(x), 0);
+}
+
+/**
+ * « full » : match complet, sûr (titre « Full Game » et, si la durée est connue, au moins 45 min : 4 × 10 min de jeu, temps morts coupés).
+ * « highlights » : résumé. « other » : le reste.
+ */
+export function videoKind(title, durationS) {
+  const t = plain(title ?? '');
+  if (/\b(full game|full replay|match complet|rediffusion)\b/.test(t) && (durationS == null || durationS >= 45 * 60)) return 'full';
+  if (/\b(highlights?|resume|best of)\b/.test(t)) return 'highlights';
+  return 'other';
+}
+
 function videos(html) {
   const m = /var ytInitialData = (\{.*?\});<\/script>/s.exec(html);
   if (!m) return [];
@@ -28,7 +45,7 @@ function videos(html) {
     if (!o || typeof o !== 'object') return;
     if (o.videoRenderer) {
       const v = o.videoRenderer;
-      out.push({ id: v.videoId, title: (v.title?.runs ?? []).map((r) => r.text).join('') });
+      out.push({ id: v.videoId, title: (v.title?.runs ?? []).map((r) => r.text).join(''), duration_s: seconds(v.lengthText?.simpleText) });
     }
     Object.values(o).forEach(walk);
   };
@@ -51,7 +68,7 @@ export function matchesGame(title, game, names) {
 
 /**
  * Cherche le match sur la chaîne. names = { home: [noms possibles], away: [...] }.
- * Renvoie { url, title } ou null.
+ * Renvoie { url, title, kind, duration_s } ou null.
  */
 export async function findOnChannel(channel, game, names) {
   const query = `${names.home[0]} ${names.away[0]}`;
@@ -60,5 +77,7 @@ export async function findOnChannel(channel, game, names) {
     headers: { 'Accept-Language': 'en-US,en;q=0.8' },
   });
   const hit = videos(html).find((v) => matchesGame(v.title, game, names));
-  return hit ? { url: `https://www.youtube.com/watch?v=${hit.id}`, title: hit.title } : null;
+  return hit
+    ? { url: `https://www.youtube.com/watch?v=${hit.id}`, title: hit.title, kind: videoKind(hit.title, hit.duration_s), duration_s: hit.duration_s }
+    : null;
 }

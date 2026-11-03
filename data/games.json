@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:30:18.752Z",
+ "updated": "2026-11-03T15:28:21.946Z",
  "season": "2026-27",
  "games": [
   {
@@ -39,6 +39,7 @@
     "aniss-tagayi": {
      "player_id": "aniss-tagayi",
      "team": "Ball State",
+     "jersey": "24",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -62,7 +63,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918703",
-     "updated": "2026-11-03T12:29:31.123Z"
+     "updated": "2026-11-03T15:28:21.850Z"
     }
    },
    "sources": [
@@ -111,6 +112,7 @@
     "lina-fimbo": {
      "player_id": "lina-fimbo",
      "team": "UTRGV",
+     "jersey": "14",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -134,7 +136,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401922843",
-     "updated": "2026-11-03T12:29:56.928Z"
+     "updated": "2026-11-03T15:28:21.909Z"
     }
    },
    "sources": [
@@ -183,13 +185,14 @@
     "sarah-aldeguer": {
      "player_id": "sarah-aldeguer",
      "team": "Princeton",
+     "jersey": "9",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915322",
-     "updated": "2026-11-03T12:30:03.884Z"
+     "updated": "2026-11-03T15:28:21.927Z"
     }
    },
    "sources": [
@@ -293,6 +296,7 @@
     "marine-dursus": {
      "player_id": "marine-dursus",
      "team": "UConn",
+     "jersey": "5",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -316,7 +320,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911736",
-     "updated": "2026-11-03T12:29:26.668Z"
+     "updated": "2026-11-03T15:28:21.833Z"
     }
    },
    "sources": [
@@ -326,7 +330,9 @@
    "youtube": {
     "url": "https://www.youtube.com/watch?v=ezn0wvp9iUI",
     "title": "UConn vs Cornell Full Game | Women's Basketball Nov 2,2026",
-    "channel": "Walter Gaming"
+    "duration_s": 3774,
+    "channel": "Walter Gaming",
+    "kind": "full"
    }
   },
   {
@@ -366,6 +372,7 @@
     "harissoum-coulibaly": {
      "player_id": "harissoum-coulibaly",
      "team": "Tennessee",
+     "jersey": "2",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -389,7 +396,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401912952",
-     "updated": "2026-11-03T12:29:44.266Z"
+     "updated": "2026-11-03T15:28:21.878Z"
     }
    },
    "sources": [
@@ -399,7 +406,9 @@
    "youtube": {
     "url": "https://www.youtube.com/watch?v=tn0WFQ00ato",
     "title": "Duquesne vs Tennessee Full Game | Women's Basketball Nov 2,2026",
-    "channel": "Walter Gaming"
+    "duration_s": 5192,
+    "channel": "Walter Gaming",
+    "kind": "full"
    }
   },
   {
@@ -439,6 +448,7 @@
     "dayana-mendes": {
      "player_id": "dayana-mendes",
      "team": "Miami",
+     "jersey": "26",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -462,11 +472,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913723",
-     "updated": "2026-11-03T12:29:22.443Z"
+     "updated": "2026-11-03T15:28:21.819Z"
     },
     "jess-mine-zodia": {
      "player_id": "jess-mine-zodia",
      "team": "Miami",
+     "jersey": "13",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -490,7 +501,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913723",
-     "updated": "2026-11-03T12:29:22.443Z"
+     "updated": "2026-11-03T15:28:21.819Z"
     }
    },
    "sources": [
@@ -539,6 +550,7 @@
     "elodie-lutbert": {
      "player_id": "elodie-lutbert",
      "team": "Houston",
+     "jersey": "27",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -562,7 +574,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923478",
-     "updated": "2026-11-03T12:29:09.010Z"
+     "updated": "2026-11-03T15:28:21.784Z"
     }
    },
    "sources": [
@@ -611,6 +623,7 @@
     "linda-amaning": {
      "player_id": "linda-amaning",
      "team": "Central Arkansas",
+     "jersey": "25",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -634,7 +647,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918517",
-     "updated": "2026-11-03T12:29:13.155Z"
+     "updated": "2026-11-03T15:28:21.792Z"
     }
    },
    "sources": [
@@ -683,6 +696,7 @@
     "jade-ondineme": {
      "player_id": "jade-ondineme",
      "team": "Miami (Ohio)",
+     "jersey": "45",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -706,7 +720,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918675",
-     "updated": "2026-11-03T12:29:24.555Z"
+     "updated": "2026-11-03T15:28:21.825Z"
     }
    },
    "sources": [
@@ -755,6 +769,7 @@
     "sophie-sene": {
      "player_id": "sophie-sene",
      "team": "Colorado State",
+     "jersey": "55",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -778,7 +793,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927946",
-     "updated": "2026-11-03T12:29:28.952Z"
+     "updated": "2026-11-03T15:28:21.840Z"
     }
    },
    "sources": [
@@ -827,6 +842,7 @@
     "lea-nadolny": {
      "player_id": "lea-nadolny",
      "team": "Louisiana-Monroe",
+     "jersey": "1",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -850,7 +866,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918646",
-     "updated": "2026-11-03T12:30:01.419Z"
+     "updated": "2026-11-03T15:28:21.919Z"
     }
    },
    "sources": [
@@ -892,6 +908,7 @@
     "alicia-tournebize": {
      "player_id": "alicia-tournebize",
      "team": "South Carolina",
+     "jersey": "31",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -915,18 +932,19 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918849",
-     "updated": "2026-11-03T12:29:15.956Z"
+     "updated": "2026-11-03T15:28:21.803Z"
     },
     "justine-loubens": {
      "player_id": "justine-loubens",
      "team": "South Carolina",
+     "jersey": null,
      "status": "absent",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918849",
-     "updated": "2026-11-03T12:29:15.956Z"
+     "updated": "2026-11-03T15:28:21.803Z"
     }
    },
    "sources": [
@@ -935,7 +953,9 @@
    "youtube": {
     "url": "https://www.youtube.com/watch?v=_AvQqSFaj5s",
     "title": "South Carolina vs Maryland Full Game | College Women Basketball Nov 2,2026",
-    "channel": "Walter Gaming"
+    "duration_s": 5530,
+    "channel": "Walter Gaming",
+    "kind": "full"
    }
   },
   {
@@ -975,6 +995,7 @@
     "thelma-barbitch": {
      "player_id": "thelma-barbitch",
      "team": "Mount St. Mary's",
+     "jersey": "20",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -998,7 +1019,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916162",
-     "updated": "2026-11-03T12:29:39.537Z"
+     "updated": "2026-11-03T15:28:21.867Z"
     }
    },
    "sources": [
@@ -1047,13 +1068,14 @@
     "daffa-cissoko": {
      "player_id": "daffa-cissoko",
      "team": "Oklahoma",
+     "jersey": "26",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906088",
-     "updated": "2026-11-03T12:29:50.198Z"
+     "updated": "2026-11-03T15:28:21.897Z"
     }
    },
    "sources": [
@@ -1063,7 +1085,9 @@
    "youtube": {
     "url": "https://www.youtube.com/watch?v=_62obune8VQ",
     "title": "Oklahoma vs North Carolina Full Game | College Women Basketball Nov 2,2026",
-    "channel": "Walter Gaming"
+    "duration_s": 4660,
+    "channel": "Walter Gaming",
+    "kind": "full"
    }
   },
   {
@@ -1103,6 +1127,7 @@
     "amandine-amorich": {
      "player_id": "amandine-amorich",
      "team": "Loyola Maryland",
+     "jersey": "34",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1126,7 +1151,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926015",
-     "updated": "2026-11-03T12:29:37.444Z"
+     "updated": "2026-11-03T15:28:21.862Z"
     }
    },
    "sources": [
@@ -1175,6 +1200,7 @@
     "kayna-chnina": {
      "player_id": "kayna-chnina",
      "team": "Jacksonville State",
+     "jersey": "9",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1198,7 +1224,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927989",
-     "updated": "2026-11-03T12:29:59.172Z"
+     "updated": "2026-11-03T15:28:21.915Z"
     }
    },
    "sources": [
@@ -1247,6 +1273,7 @@
     "jawelle-daquin": {
      "player_id": "jawelle-daquin",
      "team": "Central Michigan",
+     "jersey": "9",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1270,7 +1297,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401929167",
-     "updated": "2026-11-03T12:29:18.238Z"
+     "updated": "2026-11-03T15:28:21.811Z"
     }
    },
    "sources": [
@@ -1324,24 +1351,26 @@
     "fiona-diomande": {
      "player_id": "fiona-diomande",
      "team": "Presbyterian",
+     "jersey": "34",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927035",
-     "updated": "2026-11-03T12:29:41.628Z"
+     "updated": "2026-11-03T15:28:21.870Z"
     },
     "salimata-traore": {
      "player_id": "salimata-traore",
      "team": "UNC Greensboro",
+     "jersey": "7",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927035",
-     "updated": "2026-11-03T12:29:47.718Z"
+     "updated": "2026-11-03T15:28:21.886Z"
     }
    },
    "sources": [
@@ -1390,13 +1419,14 @@
     "nora-ahamadi": {
      "player_id": "nora-ahamadi",
      "team": "Middle Tennessee",
+     "jersey": "29",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921232",
-     "updated": "2026-11-03T12:29:46.320Z"
+     "updated": "2026-11-03T15:28:21.883Z"
     }
    },
    "sources": [
@@ -1445,17 +1475,19 @@
     "fanta-keita": {
      "player_id": "fanta-keita",
      "team": "New Mexico State",
+     "jersey": null,
      "status": "absent",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:34.911Z"
+     "updated": "2026-11-03T15:28:21.858Z"
     },
     "aissatou-keita": {
      "player_id": "aissatou-keita",
      "team": "New Mexico State",
+     "jersey": "1",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1479,11 +1511,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.858Z"
     },
     "aimee-michel": {
      "player_id": "aimee-michel",
      "team": "New Mexico State",
+     "jersey": "14",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1507,11 +1540,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "eva-agba": {
      "player_id": "eva-agba",
      "team": "New Mexico State",
+     "jersey": "8",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1535,11 +1569,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "imane-loubibet": {
      "player_id": "imane-loubibet",
      "team": "New Mexico State",
+     "jersey": "9",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1563,11 +1598,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "lilyana-fontcha": {
      "player_id": "lilyana-fontcha",
      "team": "New Mexico State",
+     "jersey": "20",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1591,11 +1627,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "talia-kavoka": {
      "player_id": "talia-kavoka",
      "team": "New Mexico State",
+     "jersey": "5",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1619,22 +1656,24 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "justine-mouyokolo": {
      "player_id": "justine-mouyokolo",
      "team": "New Mexico State",
+     "jersey": null,
      "status": "absent",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "eva-hamlil": {
      "player_id": "eva-hamlil",
      "team": "New Mexico State",
+     "jersey": "10",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1658,33 +1697,36 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.317Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "julia-saillard": {
      "player_id": "julia-saillard",
      "team": "New Mexico State",
+     "jersey": null,
      "status": "absent",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.318Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "sena-sert": {
      "player_id": "sena-sert",
      "team": "New Mexico State",
+     "jersey": "11",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.318Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     },
     "stacy-chovino": {
      "player_id": "stacy-chovino",
      "team": "New Mexico State",
+     "jersey": "97",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1708,7 +1750,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
-     "updated": "2026-11-03T12:29:35.318Z"
+     "updated": "2026-11-03T15:28:21.859Z"
     }
    },
    "sources": [
@@ -1757,6 +1799,7 @@
     "mary-kate-tshibuabua": {
      "player_id": "mary-kate-tshibuabua",
      "team": "George Mason",
+     "jersey": "19",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1780,7 +1823,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921077",
-     "updated": "2026-11-03T12:29:33.286Z"
+     "updated": "2026-11-03T15:28:21.855Z"
     }
    },
    "sources": [
@@ -1829,6 +1872,7 @@
     "charlotte-abraham": {
      "player_id": "charlotte-abraham",
      "team": "Washington State",
+     "jersey": "10",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -1852,11 +1896,12 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903553",
-     "updated": "2026-11-03T12:29:11.392Z"
+     "updated": "2026-11-03T15:28:21.788Z"
     },
     "tahara-magassa": {
      "player_id": "tahara-magassa",
      "team": "Washington State",
+     "jersey": "6",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1880,7 +1925,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903553",
-     "updated": "2026-11-03T12:29:11.392Z"
+     "updated": "2026-11-03T15:28:21.788Z"
     }
    },
    "sources": [
@@ -1929,6 +1974,7 @@
     "tea-cleante": {
      "player_id": "tea-cleante",
      "team": "Kansas State",
+     "jersey": "25",
      "status": "played",
      "starter": false,
      "reason": "",
@@ -1952,7 +1998,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906979",
-     "updated": "2026-11-03T12:29:15.254Z"
+     "updated": "2026-11-03T15:28:21.800Z"
     }
    },
    "sources": [
@@ -2001,6 +2047,7 @@
     "lucile-jerome": {
      "player_id": "lucile-jerome",
      "team": "Xavier",
+     "jersey": "2",
      "status": "played",
      "starter": true,
      "reason": "",
@@ -2024,18 +2071,19 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913015",
-     "updated": "2026-11-03T12:29:20.392Z"
+     "updated": "2026-11-03T15:28:21.816Z"
     },
     "stella-mavuanga": {
      "player_id": "stella-mavuanga",
      "team": "Xavier",
+     "jersey": "6",
      "status": "dnp",
      "starter": false,
      "reason": "",
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913015",
-     "updated": "2026-11-03T12:29:20.392Z"
+     "updated": "2026-11-03T15:28:21.817Z"
     }
    },
    "sources": [

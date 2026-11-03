@@ -30,6 +30,17 @@ function kickoff(g) {
 
 const teamName = (n) => state.config.team_names?.[n] ?? n;
 
+// Mode éditeur : activé une fois par appareil en ouvrant le site avec ?admin (désactivé avec ?admin=0).
+const params = new URLSearchParams(location.search);
+const ADMIN = (() => {
+  try {
+    if (params.has('admin')) params.get('admin') === '0' ? localStorage.removeItem('ncaa-admin') : localStorage.setItem('ncaa-admin', '1');
+    return localStorage.getItem('ncaa-admin') === '1';
+  } catch {
+    return params.has('admin') && params.get('admin') !== '0';
+  }
+})();
+
 // ---------- liens ----------
 function youtubeLinks(g) {
   const yt = state.config.youtube ?? {};
@@ -41,7 +52,23 @@ function youtubeLinks(g) {
   return [{ label: yt.label ?? 'YouTube', url: `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`, title: 'Recherche YouTube' }];
 }
 
-function gameLinks(g, team) {
+// Bouton « Clipper » (mode éditeur) : ouvre l'outil de clipping local avec la vidéo du match complet,
+// le play-by-play ESPN, le nom et le numéro de la joueuse. Seulement si la vidéo est un match complet.
+function clipLink(g, l) {
+  const clip = state.config.clipping;
+  if (!ADMIN || !clip?.url || !l || l.status !== 'played') return null;
+  if (!g.youtube?.url || g.youtube.kind !== 'full' || !g.links?.espn_pbp) return null;
+  const q = new URLSearchParams({
+    video: g.youtube.url,
+    pbp: g.links.espn_pbp,
+    name: state.byId.get(l.player_id)?.name ?? '',
+    number: l.jersey ?? '',
+    team: g.home.team === l.team ? '1' : '2', // play-by-play ESPN : équipe 1 = à domicile
+  });
+  return { label: clip.label ?? 'Clipper', url: `${clip.url}?${q}`, title: 'Ouvrir dans l\'outil de clipping (vidéo, play-by-play et joueuse préremplis)' };
+}
+
+function gameLinks(g, team, line) {
   // Une seule source de liens par match : ESPN s'il a le match, sinon le site de la fac.
   const fac = g.links?.fac?.[team] ?? Object.values(g.links?.fac ?? {})[0];
   const src = g.links?.espn_box
@@ -54,10 +81,11 @@ function gameLinks(g, team) {
     if (src.pbp) out.push({ label: 'Play-by-play', url: src.pbp, title: `Play-by-play (${src.name})` });
     if (src.box) out.push({ label: 'Box score', url: src.box, title: `Box score (${src.name})` });
   }
-  return [...out, ...youtubeLinks(g)];
+  const clip = clipLink(g, line);
+  return [...out, ...youtubeLinks(g), ...(clip ? [clip] : [])];
 }
-const linksHTML = (g, team) =>
-  `<div class="links">${gameLinks(g, team).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener"${l.title ? ` title="${esc(l.title)}"` : ''}>${esc(l.label)}</a>`).join('')}</div>`;
+const linksHTML = (g, team, line) =>
+  `<div class="links">${gameLinks(g, team, line).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener"${l.title ? ` title="${esc(l.title)}"` : ''}>${esc(l.label)}</a>`).join('')}</div>`;
 
 // ---------- calculs ----------
 function perspective(g, team) {
@@ -141,7 +169,7 @@ function cardHTML(g, l) {
     ${gameMeta(g, l.team)}
     ${statlineHTML(s)}
     <div class="badges">${tags.map((t) => `<span class="badge accent">${esc(t)}</span>`).join('')}${l.starter ? '<span class="badge">Titulaire</span>' : '<span class="badge">Remplaçante</span>'}${srcBadge(l)}</div>
-    ${linksHTML(g, l.team)}
+    ${linksHTML(g, l.team, l)}
   </article>`;
 }
 
@@ -237,7 +265,7 @@ function gameLogTable(log) {
     const { them, where, res, us } = perspective(g, l.team);
     const s = l.stats;
     const { big } = isBig(s);
-    const links = gameLinks(g, l.team).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(' · ');
+    const links = gameLinks(g, l.team, l).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(' · ');
     const stats = s
       ? `<td>${l.starter ? 'oui' : ''}</td><td>${Math.round(s.min)}</td><td class="hl">${s.pts}</td><td>${s.reb} <span class="muted">(${s.oreb}/${s.dreb})</span></td><td>${s.ast}</td><td>${s.stl}</td><td>${s.blk}</td><td>${s.to}</td><td>${s.pf}</td><td>${s.fgm}-${s.fga}</td><td>${s.tpm}-${s.tpa}</td><td>${s.ftm}-${s.fta}</td>`
       : `<td colspan="12" class="l muted">${statusText(l)}</td>`;
@@ -352,7 +380,7 @@ function pageCalendar(day) {
         return `<li><a href="#/joueuse/${esc(l.player_id)}"><strong>${esc(state.byId.get(l.player_id)?.name ?? l.player_id)}</strong></a>
           <span class="muted">${esc(l.team)}</span>
           ${s ? `<span${big ? ' style="color:var(--t6-green);font-weight:700"' : ''}>${s.pts} pts, ${s.reb} reb, ${s.ast} pd · ${Math.round(s.min)} min · ${s.fgm}-${s.fga} tirs</span>${tags.map((t) => `<span class="badge accent">${esc(t)}</span>`).join('')}` : `<span class="muted">${statusText(l)}</span>`}
-          ${srcBadge(l)}</li>`;
+          ${srcBadge(l)}${(() => { const c = clipLink(g, l); return c ? ` <a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.title)}">${esc(c.label)}</a>` : ''; })()}</li>`;
       }).join('')}</ul>
       ${linksHTML(g, team)}
     </section>`;
@@ -438,19 +466,12 @@ async function load() {
 const updatedText = (u) => `${u.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', timeZone: 'Europe/Paris' })} à ${timeParis(u)}`;
 
 // ---------- bouton « Actualiser » (réservé à l'éditeur) ----------
-// Activé une fois par appareil en ouvrant le site avec ?admin (désactivé avec ?admin=0).
 // Il ouvre la page GitHub de l'Action (bouton « Run workflow »), puis recharge le site
 // tout seul dès que les nouvelles données sont publiées.
 const $refresh = document.getElementById('refresh');
 const $refreshBtn = document.getElementById('refresh-btn');
 const $refreshInfo = document.getElementById('refresh-info');
-const params = new URLSearchParams(location.search);
-try {
-  if (params.has('admin')) params.get('admin') === '0' ? localStorage.removeItem('ncaa-admin') : localStorage.setItem('ncaa-admin', '1');
-  $refresh.hidden = localStorage.getItem('ncaa-admin') !== '1';
-} catch {
-  $refresh.hidden = !params.has('admin');
-}
+$refresh.hidden = !ADMIN;
 
 let polling = null;
 $refreshBtn.addEventListener('click', async () => {

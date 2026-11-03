@@ -206,10 +206,11 @@ function diff(a, b) {
   return COMPARE.filter((k) => (k === 'min' ? Math.abs(a[k] - b[k]) >= 1.5 : a[k] !== b[k])).map((k) => ({ stat: k, espn: a[k], fac: b[k] }));
 }
 
-function toLine(p, team, row, source, url) {
+function toLine(p, team, row, source, url, jersey) {
   return {
     player_id: p.id,
     team,
+    jersey: row?.jersey ?? jersey ?? null,
     status: row ? (row.dnp || !row.line ? 'dnp' : 'played') : 'absent',
     starter: row ? !!row.starter : false,
     reason: row?.reason ?? '',
@@ -248,11 +249,12 @@ async function processTeamGame(team, pair, g) {
   for (const p of roster) {
     let eRow = espnRows.find((x) => p.espn_athlete_id && x.espn_id === p.espn_athlete_id);
     if (!eRow && !p.espn_athlete_id) eRow = espnRows.find((x) => normalizeName(x.name) === normalizeName(p.name));
-    const fRow = fb ? findInFacBox(p, facRows, await jerseyOf(p)) : null;
+    const jersey = await jerseyOf(p);
+    const fRow = fb ? findInFacBox(p, facRows, jersey) : null;
 
     let line;
-    if (eb && (eRow || !fRow)) line = toLine(p, team, eRow, 'espn', g.links.espn_box);
-    else if (fRow || facComplete) line = toLine(p, team, fRow, 'fac', g.links.fac?.[team]?.box);
+    if (eb && (eRow || !fRow)) line = toLine(p, team, eRow, 'espn', g.links.espn_box, jersey);
+    else if (fRow || facComplete) line = toLine(p, team, fRow, 'fac', g.links.fac?.[team]?.box, jersey);
     else continue; // box fac incomplet et pas d'ESPN : on ne déclare pas la joueuse absente
 
     if (eRow?.line && fRow?.line && !eRow.dnp && !fRow.dnp) {
@@ -308,11 +310,13 @@ if (channel) {
     return [...new Set(n.filter(Boolean))];
   };
   for (const g of games.values()) {
+    // vidéos trouvées avant le classement match complet / résumé : classement d'après le titre
+    if (g.youtube?.url && !g.youtube.kind) g.youtube.kind = youtube.videoKind(g.youtube.title, g.youtube.duration_s);
     if (g.youtube?.url) continue;
     if (g.date_et < addDays(today, -10) && !dates.includes(g.date_et)) continue;
     try {
       const hit = await youtube.findOnChannel(channel, g, { home: namesOf(g.home), away: namesOf(g.away) });
-      g.youtube = hit ? { url: hit.url, title: hit.title, channel: channel.label } : { url: null, checked: today };
+      g.youtube = hit ? { ...hit, channel: channel.label } : { url: null, checked: today };
       if (hit) ytFound++;
     } catch (e) {
       errors.push(`Recherche YouTube ${channel.label} (${g.id}) : ${e.message}`);
