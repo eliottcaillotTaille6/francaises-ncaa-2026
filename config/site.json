@@ -20,7 +20,19 @@
     "Miami (OH)": "Miami (Ohio)"
   },
   "highlight": {
-    "points": 20
+    "points": 15,
+    "players": {
+      "alicia-tournebize": 6,
+      "marine-dursus": 10,
+      "lucile-jerome": 10,
+      "jess-mine-zodia": 10,
+      "dayana-mendes": 10,
+      "tea-cleante": 10,
+      "eva-hamlil": 10,
+      "justine-loubens": 10,
+      "stella-mavuanga": 10,
+      "julia-saillard": 10
+    }
   },
   "excluded_players": [
     "sarah-strong"

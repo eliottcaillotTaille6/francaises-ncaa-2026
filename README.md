@@ -118,6 +118,15 @@ Le format de la recherche se règle dans `config/site.json` :
 - `youtube.channels` : la chaîne où le pipeline cherche d'abord le match (Walter Gaming). Si une vidéo a pour titre les deux équipes, « women/féminin » et la date du match, le bouton YouTube mène directement à cette vidéo. Sinon il mène à la recherche générale, et le pipeline réessaie chaque jour pendant 10 jours ;
 - `team_names` : remplace un nom d'adversaire par son nom courant, par exemple `"Florida Atlantic": "FAU"`.
 
+## Lignes encadrées en vert
+
+Une ligne de match est encadrée (avec une pastille qui dit pourquoi) si la joueuse marque au moins son seuil de
+points, ou fait un double-double ou un triple-double (10 ou plus dans deux ou trois stats parmi points, rebonds,
+passes, interceptions, contres). Seuils dans `config/site.json` → `highlight` :
+
+- `points` : le seuil de toutes les joueuses (15) ;
+- `players` : un seuil propre à certaines joueuses, par `id` (ex. `"alicia-tournebize": 6`, `"marine-dursus": 10`).
+
 ## Couleurs
 
 - Couleurs : variables `--t6-green` et `--t6-black` en haut de `public/styles.css`.

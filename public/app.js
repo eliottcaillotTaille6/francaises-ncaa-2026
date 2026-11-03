@@ -106,11 +106,17 @@ function perspective(g, team) {
   return { us, them, where, res };
 }
 
-function isBig(s) {
+// Ligne encadrée : points au moins égaux au seuil de la joueuse (config/site.json → highlight.players,
+// sinon highlight.points), ou double-double / triple-double.
+function pointsThreshold(playerId) {
+  const h = state.config.highlight ?? {};
+  return h.players?.[playerId] ?? h.points ?? 15;
+}
+function isBig(s, playerId) {
   if (!s) return { big: false, tags: [] };
   const tens = ['pts', 'reb', 'ast', 'stl', 'blk'].filter((k) => s[k] >= 10).length;
   const tags = [];
-  if (s.pts >= (state.config.highlight?.points ?? 20)) tags.push(`${s.pts} pts`);
+  if (s.pts >= pointsThreshold(playerId)) tags.push(`${s.pts} pts`);
   if (tens >= 3) tags.push('Triple-double');
   else if (tens === 2) tags.push('Double-double');
   return { big: tags.length > 0, tags };
@@ -167,7 +173,7 @@ function gameMeta(g, team) {
 function cardHTML(g, l) {
   const p = state.byId.get(l.player_id);
   const s = l.stats;
-  const { big, tags } = isBig(s);
+  const { big, tags } = isBig(s, l.player_id);
   return `<article class="card${big ? ' big' : ''}">
     <div class="card-head">
       <div>
@@ -274,7 +280,7 @@ function gameLogTable(log) {
   const rows = [...log].reverse().map(({ g, l }) => {
     const { them, where, res, us } = perspective(g, l.team);
     const s = l.stats;
-    const { big } = isBig(s);
+    const { big } = isBig(s, l.player_id);
     const links = gameLinks(g, l.team, l).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(' · ');
     const stats = s
       ? `<td>${l.starter ? 'oui' : ''}</td><td>${Math.round(s.min)}</td><td class="hl">${s.pts}</td><td>${s.reb} <span class="muted">(${s.oreb}/${s.dreb})</span></td><td>${s.ast}</td><td>${s.stl}</td><td>${s.blk}</td><td>${s.to}</td><td>${s.pf}</td><td>${s.fgm}-${s.fga}</td><td>${s.tpm}-${s.tpa}</td><td>${s.ftm}-${s.fta}</td>`
@@ -386,7 +392,7 @@ function pageCalendar(day) {
       <div class="game-meta">${kickoff(g) ? esc(kickoff(g)) : ''}${g.neutral ? ' · terrain neutre' : ''}</div>
       <ul>${lines.map((l) => {
         const s = l.stats;
-        const { big, tags } = isBig(s);
+        const { big, tags } = isBig(s, l.player_id);
         return `<li><a href="#/joueuse/${esc(l.player_id)}"><strong>${esc(state.byId.get(l.player_id)?.name ?? l.player_id)}</strong></a>
           <span class="muted">${esc(l.team)}</span>
           ${s ? `<span${big ? ' style="color:var(--t6-green);font-weight:700"' : ''}>${s.pts} pts, ${s.reb} reb, ${s.ast} pd · ${Math.round(s.min)} min · ${s.fgm}-${s.fga} tirs</span>${tags.map((t) => `<span class="badge accent">${esc(t)}</span>`).join('')}` : `<span class="muted">${statusText(l)}</span>`}
