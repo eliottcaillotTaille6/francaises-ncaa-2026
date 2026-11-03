@@ -151,6 +151,18 @@ Un bouton **Actualiser** apparaît en haut du site, uniquement pour vous :
 
 Tant que `update_workflow_url` est vide, le bouton recharge seulement les dernières données publiées. Les visiteurs ne voient pas le bouton, et ne pourraient de toute façon pas lancer l'Action sans droits sur le dépôt.
 
+## Bouton « Clipper » (outil de clipping local)
+
+En mode éditeur (`?admin`), chaque ligne de joueuse a un bouton **Clipper** quand le match a une vidéo
+**match complet** et un play-by-play ESPN. Il ouvre l'outil de clipping du Mac (`http://127.0.0.1:8765/`) avec la vidéo,
+le play-by-play, le nom, le numéro de maillot et l'équipe préremplis. L'adresse de l'outil se règle dans
+`config/site.json` → `clipping.url`. Le bouton ne fonctionne que sur le Mac où tourne l'outil.
+
+Le pipeline classe chaque vidéo trouvée (`youtube.kind` dans `games.json`) : `full` si le titre contient
+« Full Game » (ou « match complet ») et que la vidéo dure au moins 45 min, `highlights` pour un résumé, `other`
+sinon. Le numéro de maillot (`jersey`) est enregistré sur chaque ligne de stats. Le pré-téléchargement de ces
+vidéos chaque matin est géré côté outil de clipping (voir son README).
+
 ## Points d'attention
 
 - Les endpoints ESPN sont publics mais non officiels : ils peuvent changer sans préavis. Le site fonctionne aussi avec les seuls sites des facs (option `--no-espn` pour tester).
