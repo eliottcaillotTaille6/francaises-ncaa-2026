@@ -2,8 +2,10 @@ name: Mise à jour quotidienne
 
 on:
   schedule:
-    # 9 h UTC = 10 h à Paris en hiver (11 h à partir du passage à l'heure d'été).
-    - cron: "0 9 * * *"
+    # 8 h à Paris toute l'année : 6 h UTC en heure d'été, 7 h UTC en heure d'hiver.
+    # Les deux horaires sont programmés, le job « gate » ne garde que le bon.
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
   workflow_dispatch:
     inputs:
       from:
@@ -26,7 +28,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        run: |
+          zone=$(TZ=Europe/Paris date +%Z)
+          run=true
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            case "${{ github.event.schedule }}|$zone" in
+              "0 6 * * *|CEST"|"0 7 * * *|CET") run=true ;;
+              *) run=false ;;
+            esac
+          fi
+          echo "Heure de Paris ($zone), lancement : $run"
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
   update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

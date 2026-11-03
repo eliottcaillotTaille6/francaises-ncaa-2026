@@ -138,7 +138,7 @@ Le format de la recherche se règle dans `config/site.json` :
 
 2. Dans le dépôt, ouvrir **Settings → Pages → Build and deployment → Source** et choisir **GitHub Actions**.
 3. Dans **Settings → Actions → General → Workflow permissions**, cocher **Read and write permissions**, pour que l'Action puisse commiter les données.
-4. L'Action `.github/workflows/update.yml` tourne alors tous les jours à 9 h UTC (10 h à Paris en hiver). Elle récupère les matchs, commite `data/`, puis redéploie le site. Elle redéploie aussi le site à chaque push sur `public/`, `config/`, `players.json` ou `sources.json`.
+4. L'Action `.github/workflows/update.yml` tourne alors tous les jours à 8 h, heure de Paris (deux horaires UTC sont programmés pour suivre le passage à l'heure d'été, un seul s'exécute). Elle récupère les matchs, commite `data/`, puis redéploie le site. Elle redéploie aussi le site à chaque push sur `public/`, `config/`, `players.json` ou `sources.json`.
 5. **Rattrapage depuis GitHub** : onglet **Actions → Mise à jour quotidienne → Run workflow**, puis remplir les champs `from` et `to`.
 
 ## Actualiser le site à la demande
