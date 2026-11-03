@@ -10,6 +10,7 @@ import * as espn from './adapters/espn.mjs';
 import * as sidearm from './adapters/sidearm.mjs';
 import * as wmt from './adapters/wmt.mjs';
 import * as youtube from './adapters/youtube.mjs';
+import * as highlights from './adapters/highlights.mjs';
 import { fetchJSON } from './lib/http.mjs';
 import { todayET, addDays, dateRange } from './lib/time.mjs';
 import { slugify, normalizeName } from './lib/normalize.mjs';
@@ -324,6 +325,35 @@ if (channel) {
   }
 }
 
+// ---------- résumés vidéo (highlights) ----------
+// Pour les matchs où une Française a joué : résumé officiel (fac, conférence, télé locale) trouvé par la
+// recherche YouTube. Recherche chaque jour pendant 5 jours : un résumé plus long (« Extended Highlights »)
+// publié plus tard remplace le premier.
+let hlFound = 0;
+{
+  const alias = siteConfig.team_names ?? {};
+  const reverse = Object.fromEntries(Object.entries(alias).map(([k, v]) => [v, k]));
+  const extraAliases = siteConfig.team_aliases ?? {};
+  const extraOf = (side) => [alias[side.name], reverse[side.name], side.team ? sources[side.team]?.youtube_name : null,
+    ...(extraAliases[side.name] ?? []), ...(extraAliases[side.team] ?? [])].filter(Boolean);
+  const searchName = (side) => (side.team ? sources[side.team]?.youtube_name : null) ?? alias[side.name] ?? side.name;
+  for (const g of games.values()) {
+    if (g.date_et < addDays(today, -5)) continue;
+    if (!Object.values(g.lines ?? {}).some((l) => l.status === 'played')) continue;
+    try {
+      const hit = await highlights.findHighlights(g, { home: [searchName(g.home)], away: [searchName(g.away)] },
+        { home: extraOf(g.home), away: extraOf(g.away) }, today);
+      const better = (a, b) => (a.official ? 1 : 0) - (b.official ? 1 : 0) || a.duration_s - b.duration_s;
+      if (hit && (!g.highlights?.url || better(hit, g.highlights) > 0)) {
+        if (!g.highlights?.url) hlFound++;
+        g.highlights = hit;
+      } else if (!g.highlights?.url) g.highlights = { url: null, checked: today };
+    } catch (e) {
+      errors.push(`Recherche du résumé YouTube (${g.id}) : ${e.message}`);
+    }
+  }
+}
+
 // ---------- écriture ----------
 const all = [...games.values()].sort((a, b) => a.date_et.localeCompare(b.date_et) || a.id.localeCompare(b.id));
 fs.writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), season: '2026-27', games: all }, null, 1) + '\n');
@@ -382,4 +412,4 @@ for (const m of missing.sort((a, b) => a.date.localeCompare(b.date)))
 if (errors.length) mm += `\n## Sources en échec ou désactivées\n\n${[...new Set(errors)].map((e) => `- ${e}`).join('\n')}\n`;
 fs.writeFileSync('data/missing-games.md', mm);
 
-console.log(`Dates : ${dates[0]} → ${dates.at(-1)} · matchs traités : ${processed} · total games.json : ${all.length} · manquants : ${missing.length} · écarts : ${nDisc} · vidéos trouvées : ${ytFound} · erreurs : ${errors.length}`);
+console.log(`Dates : ${dates[0]} → ${dates.at(-1)} · matchs traités : ${processed} · total games.json : ${all.length} · manquants : ${missing.length} · écarts : ${nDisc} · vidéos trouvées : ${ytFound} · résumés trouvés : ${hlFound} · erreurs : ${errors.length}`);

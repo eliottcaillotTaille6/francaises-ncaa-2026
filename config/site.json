@@ -28,5 +28,23 @@
   "clipping": {
     "label": "Clipper",
     "url": "http://127.0.0.1:8765/"
+  },
+  "team_aliases": {
+    "Tennessee": [
+      "Lady Vols"
+    ],
+    "UConn": [
+      "Connecticut"
+    ],
+    "Miami": [
+      "Miami (FL)"
+    ],
+    "Miami (Ohio)": [
+      "Miami (OH)",
+      "Miami OH"
+    ],
+    "California": [
+      "Cal"
+    ]
   }
 }

@@ -9,9 +9,11 @@ const MONTHS = { jan: 1, feb: 2, fev: 2, mar: 3, apr: 4, avr: 4, may: 5, mai: 5,
 const ymd = (y, m, d) => `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 const plain = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
-// « Nov 2,2026 », « November 2, 2026 », « 2 nov. 2026 », « 1er nov. 2026 »
+// « Nov 2,2026 », « November 2, 2026 », « 2 nov. 2026 », « 1er nov. 2026 », « 11/2/26 », « 11/02/2026 »
 export function titleDate(title) {
   const t = plain(title);
+  const us = /\b(\d{1,2})\/(\d{1,2})\/(\d{4}|\d{2})\b/.exec(t);
+  if (us && Number(us[1]) <= 12) return ymd(us[3].length === 2 ? `20${us[3]}` : us[3], Number(us[1]), us[2]);
   let m = /\b([a-z]{3})[a-z]*\.?\s+(\d{1,2})\s*,\s*(\d{4})/.exec(t);
   if (m && MONTHS[m[1]]) return ymd(m[3], MONTHS[m[1]], m[2]);
   m = /\b(\d{1,2})(?:er)?\s+([a-z]{3,4})[a-z]*\.?\s+(\d{4})/.exec(t);

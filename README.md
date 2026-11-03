@@ -153,15 +153,37 @@ Tant que `update_workflow_url` est vide, le bouton recharge seulement les derni�
 
 ## Bouton « Clipper » (outil de clipping local)
 
-En mode éditeur (`?admin`), chaque ligne de joueuse a un bouton **Clipper** quand le match a une vidéo
-**match complet** et un play-by-play ESPN. Il ouvre l'outil de clipping du Mac (`http://127.0.0.1:8765/`) avec la vidéo,
-le play-by-play, le nom, le numéro de maillot et l'équipe préremplis. L'adresse de l'outil se règle dans
-`config/site.json` → `clipping.url`. Le bouton ne fonctionne que sur le Mac où tourne l'outil.
+En mode éditeur (`?admin`), chaque ligne de joueuse a un bouton **Clipper** quand le match a un play-by-play ESPN
+et une vidéo sûre :
 
-Le pipeline classe chaque vidéo trouvée (`youtube.kind` dans `games.json`) : `full` si le titre contient
-« Full Game » (ou « match complet ») et que la vidéo dure au moins 45 min, `highlights` pour un résumé, `other`
-sinon. Le numéro de maillot (`jersey`) est enregistré sur chaque ligne de stats. Le pré-téléchargement de ces
-vidéos chaque matin est géré côté outil de clipping (voir son README).
+- **Clipper** : le match complet (chaîne Walter Gaming, titre « Full Game », au moins 45 min) ;
+- **Clipper (résumé)** : à défaut, le résumé du match (« Highlights », « Extended Highlights », « Condensed Game »).
+  Seuls les paniers montrés dans le résumé seront retrouvés.
+
+Le bouton ouvre l'outil de clipping du Mac (`http://127.0.0.1:8765/`) avec la vidéo, le play-by-play, le nom,
+le numéro de maillot et l'équipe préremplis. L'adresse de l'outil se règle dans `config/site.json` → `clipping.url`.
+Le bouton ne fonctionne que sur le Mac où tourne l'outil.
+
+**Match complet** : le pipeline classe chaque vidéo de la chaîne de référence (`youtube.kind` dans `games.json`) :
+`full` (titre « Full Game » ou « match complet », au moins 45 min), `highlights` ou `other`.
+
+**Résumés** (`highlights` dans `games.json`, `scripts/adapters/highlights.mjs`) : pour chaque match où une Française
+a joué, recherche YouTube « équipe vs équipe women's basketball highlights » pendant 5 jours. Une vidéo n'est
+retenue que si :
+
+- son titre contient « highlights » ou « condensed game » (pas un match complet) ;
+- c'est un match féminin (women, WBB, Lady… dans le titre ou le nom de la chaîne) ;
+- les deux équipes sont reconnues dans le titre ou le nom de la chaîne : nom, nom court, sigle ESPN (PFW, ULM),
+  mascotte si elle est unique, et les alias de `config/site.json` → `team_aliases` (ex. « Lady Vols », « Cal ») ;
+- elle a été publiée après le match, dans les 5 jours, et la date de son titre, s'il y en a une, est celle du match ;
+- elle dure entre 30 s et 25 min.
+
+Les chaînes officielles (fac, conférence, ESPN, « Athletics »…) passent avant les autres, puis la vidéo la plus longue.
+Un résumé qui ne dit pas qu'il s'agit du match féminin (ex. vidéo ESPN sans « women ») est écarté : ce pourrait être le
+match masculin. Si un résumé manque pour un match, ajoutez un alias d'équipe dans `team_aliases`.
+
+Le numéro de maillot (`jersey`) est enregistré sur chaque ligne de stats. Le pré-téléchargement de ces vidéos chaque
+matin est géré côté outil de clipping (voir son README).
 
 ## Points d'attention
 

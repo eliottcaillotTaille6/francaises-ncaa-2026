@@ -52,21 +52,30 @@ function youtubeLinks(g) {
   return [{ label: yt.label ?? 'YouTube', url: `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`, title: 'Recherche YouTube' }];
 }
 
-// Bouton « Clipper » (mode éditeur) : ouvre l'outil de clipping local avec la vidéo du match complet,
-// le play-by-play ESPN, le nom et le numéro de la joueuse. Seulement si la vidéo est un match complet.
+// Bouton « Clipper » (mode éditeur) : ouvre l'outil de clipping local avec la vidéo du match,
+// le play-by-play ESPN, le nom et le numéro de la joueuse. Vidéo : le match complet s'il existe,
+// sinon le résumé officiel (highlights, condensed game) trouvé par le pipeline.
+function clipVideo(g) {
+  if (g.youtube?.url && g.youtube.kind === 'full') return { url: g.youtube.url, full: true };
+  if (g.highlights?.url) return { url: g.highlights.url, full: false };
+  return null;
+}
 function clipLink(g, l) {
   const clip = state.config.clipping;
   if (!ADMIN || !clip?.url || !l || l.status !== 'played') return null;
-  if (!g.youtube?.url || g.youtube.kind !== 'full' || !g.links?.espn_pbp) return null;
+  const video = clipVideo(g);
+  if (!video || !g.links?.espn_pbp) return null;
   const q = new URLSearchParams({
-    video: g.youtube.url,
+    video: video.url,
     pbp: g.links.espn_pbp,
     name: state.byId.get(l.player_id)?.name ?? '',
     number: l.jersey ?? '',
     team: g.home.team === l.team ? '1' : '2', // play-by-play ESPN : équipe 1 = à domicile
     t: Date.now().toString(36), // adresse unique : Chrome ne ressert jamais une ancienne page de l'outil
   });
-  return { label: clip.label ?? 'Clipper', url: `${clip.url}?${q}`, title: 'Ouvrir dans l\'outil de clipping (vidéo, play-by-play et joueuse préremplis)' };
+  return video.full
+    ? { label: clip.label ?? 'Clipper', url: `${clip.url}?${q}`, title: 'Match complet : ouvrir dans l\'outil de clipping (vidéo, play-by-play et joueuse préremplis)' }
+    : { label: `${clip.label ?? 'Clipper'} (résumé)`, url: `${clip.url}?${q}`, title: `Résumé « ${g.highlights.title} » (${g.highlights.channel}) : seuls les paniers montrés dans le résumé seront retrouvés` };
 }
 
 function gameLinks(g, team, line) {
