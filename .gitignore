@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+_site/
+.DS_Store
+.claude/
+# Fichier de travail Excel : gardé en local, non publié.
+data/source-joueuses.xlsx
+data/_test-*.json

@@ -1,0 +1,456 @@
+{
+  "season": "2026-27",
+  "updated": "2026-11-03",
+  "_doc": {
+    "platform": "sidearm = Sidearm classique (HTML) ; sidearm-nuxt = Sidearm nouvelle génération (JSON __NUXT_DATA__) ; sidearm-vue = Sidearm avec calendrier JSON inline ; wmt = WMT Digital (API website-api + stats XML ou wmt.games) ; blocked = site qui refuse les requêtes automatiques",
+    "enabled": "false = le pipeline ne lit pas ce site (stats ESPN uniquement)",
+    "calendar_fallback": "espn = calendrier de référence tiré de l API ESPN quand le site de la fac est illisible",
+    "youtube_name": "nom utilisé dans les recherches YouTube (modifiable)"
+  },
+  "teams": {
+    "Ball State": {
+      "espn_team_id": "2050",
+      "conference": "MAC",
+      "youtube_name": "Ball State",
+      "domain": "ballstatesports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://ballstatesports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Central Arkansas": {
+      "espn_team_id": "2110",
+      "conference": "UAC",
+      "youtube_name": "Central Arkansas",
+      "domain": "ucasports.com",
+      "platform": "sidearm",
+      "schedule_url": "https://ucasports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Central Michigan": {
+      "espn_team_id": "2117",
+      "conference": "MAC",
+      "youtube_name": "Central Michigan",
+      "domain": "cmuchippewas.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://cmuchippewas.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Colorado State": {
+      "espn_team_id": "36",
+      "conference": "Pac-12",
+      "youtube_name": "Colorado State",
+      "domain": "csurams.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://csurams.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Dartmouth": {
+      "espn_team_id": "159",
+      "conference": "Ivy",
+      "youtube_name": "Dartmouth",
+      "domain": "dartmouthsports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://dartmouthsports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "FIU": {
+      "espn_team_id": "2229",
+      "conference": "CUSA",
+      "youtube_name": "FIU",
+      "domain": "fiusports.com",
+      "platform": "sidearm",
+      "schedule_url": "https://fiusports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "George Mason": {
+      "espn_team_id": "2244",
+      "conference": "A-10",
+      "youtube_name": "George Mason",
+      "domain": "gomason.com",
+      "platform": "sidearm-vue",
+      "schedule_url": "https://gomason.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": "Site protégé par Incapsula : lisible depuis un poste classique, à surveiller depuis GitHub Actions."
+    },
+    "Grand Canyon": {
+      "espn_team_id": "2253",
+      "conference": "Mountain West",
+      "youtube_name": "Grand Canyon",
+      "domain": "gculopes.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://gculopes.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Houston": {
+      "espn_team_id": "248",
+      "conference": "Big 12",
+      "youtube_name": "Houston",
+      "domain": "uhcougars.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://uhcougars.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Idaho State": {
+      "espn_team_id": "304",
+      "conference": "Big Sky",
+      "youtube_name": "Idaho State",
+      "domain": "isubengals.com",
+      "platform": "sidearm",
+      "schedule_url": "https://isubengals.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Jacksonville State": {
+      "espn_team_id": "55",
+      "conference": "CUSA",
+      "youtube_name": "Jacksonville State",
+      "domain": "jaxstatesports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://jaxstatesports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Kansas State": {
+      "espn_team_id": "2306",
+      "conference": "Big 12",
+      "youtube_name": "Kansas State",
+      "domain": "kstatesports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://kstatesports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "La Salle": {
+      "espn_team_id": "2325",
+      "conference": "A-10",
+      "youtube_name": "La Salle",
+      "domain": "goexplorers.com",
+      "platform": "sidearm",
+      "schedule_url": "https://goexplorers.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Louisiana-Monroe": {
+      "espn_team_id": "2433",
+      "conference": "Sun Belt",
+      "youtube_name": "Louisiana-Monroe",
+      "domain": "ulmwarhawks.com",
+      "platform": "sidearm",
+      "schedule_url": "https://ulmwarhawks.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Loyola Chicago": {
+      "espn_team_id": "2350",
+      "conference": "A-10",
+      "youtube_name": "Loyola Chicago",
+      "domain": "loyolaramblers.com",
+      "platform": "sidearm",
+      "schedule_url": "https://loyolaramblers.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Loyola Maryland": {
+      "espn_team_id": "2352",
+      "conference": "Patriot",
+      "youtube_name": "Loyola Maryland",
+      "domain": "loyolagreyhounds.com",
+      "platform": "sidearm",
+      "schedule_url": "https://loyolagreyhounds.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Marquette": {
+      "espn_team_id": "269",
+      "conference": "Big East",
+      "youtube_name": "Marquette",
+      "domain": "gomarquette.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://gomarquette.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Miami": {
+      "espn_team_id": "2390",
+      "conference": "ACC",
+      "youtube_name": "Miami",
+      "domain": "miamihurricanes.com",
+      "platform": "wmt",
+      "schedule_url": "https://miamihurricanes.com/sports/wbball/schedule",
+      "wmt_schedule_id": 648,
+      "enabled": true,
+      "note": "WMT, stats v1 : box score en XML (stats.miamihurricanes.com/api/v1/game/xml/{id})."
+    },
+    "Miami (Ohio)": {
+      "espn_team_id": "193",
+      "conference": "MAC",
+      "youtube_name": "Miami (Ohio)",
+      "domain": "miamiredhawks.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://miamiredhawks.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Michigan State": {
+      "espn_team_id": "127",
+      "conference": "Big Ten",
+      "youtube_name": "Michigan State",
+      "domain": "msuspartans.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://msuspartans.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Middle Tennessee": {
+      "espn_team_id": "2393",
+      "conference": "CUSA",
+      "youtube_name": "Middle Tennessee",
+      "domain": "goblueraiders.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://goblueraiders.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Mississippi State": {
+      "espn_team_id": "344",
+      "conference": "SEC",
+      "youtube_name": "Mississippi State",
+      "domain": "hailstate.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://hailstate.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Mount St. Mary's": {
+      "espn_team_id": "116",
+      "conference": "Metro",
+      "youtube_name": "Mount St. Mary's",
+      "domain": "mountathletics.com",
+      "platform": "sidearm",
+      "schedule_url": "https://mountathletics.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "New Mexico State": {
+      "espn_team_id": "166",
+      "conference": "CUSA",
+      "youtube_name": "New Mexico State",
+      "domain": "nmstatesports.com",
+      "platform": "sidearm",
+      "schedule_url": "https://nmstatesports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Oklahoma": {
+      "espn_team_id": "201",
+      "conference": "SEC",
+      "youtube_name": "Oklahoma",
+      "domain": "soonersports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://soonersports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Presbyterian": {
+      "espn_team_id": "2506",
+      "conference": "Big South",
+      "youtube_name": "Presbyterian",
+      "domain": "gobluehose.com",
+      "platform": "sidearm",
+      "schedule_url": "https://gobluehose.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Princeton": {
+      "espn_team_id": "163",
+      "conference": "Ivy",
+      "youtube_name": "Princeton",
+      "domain": "goprincetontigers.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://goprincetontigers.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Robert Morris": {
+      "espn_team_id": "2523",
+      "conference": "Horizon",
+      "youtube_name": "Robert Morris",
+      "domain": "rmucolonials.com",
+      "platform": "sidearm",
+      "schedule_url": "https://rmucolonials.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "San Francisco": {
+      "espn_team_id": "2539",
+      "conference": "WCC",
+      "youtube_name": "San Francisco",
+      "domain": "usfdons.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://usfdons.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "SMU": {
+      "espn_team_id": "2567",
+      "conference": "ACC",
+      "youtube_name": "SMU",
+      "domain": "smumustangs.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://smumustangs.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "South Carolina": {
+      "espn_team_id": "2579",
+      "conference": "SEC",
+      "youtube_name": "South Carolina",
+      "domain": "gamecocksonline.com",
+      "platform": "blocked",
+      "schedule_url": "https://gamecocksonline.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": false,
+      "note": "gamecocksonline.com renvoie 403 (protection anti-bot) : non contourné. Calendrier de référence = API ESPN.",
+      "calendar_fallback": "espn"
+    },
+    "Syracuse": {
+      "espn_team_id": "183",
+      "conference": "ACC",
+      "youtube_name": "Syracuse",
+      "domain": "cuse.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://cuse.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Tarleton State": {
+      "espn_team_id": "2627",
+      "conference": "UAC",
+      "youtube_name": "Tarleton State",
+      "domain": "tarletonsports.com",
+      "platform": "sidearm",
+      "schedule_url": "https://tarletonsports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Tennessee": {
+      "espn_team_id": "2633",
+      "conference": "SEC",
+      "youtube_name": "Tennessee",
+      "domain": "utsports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://utsports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Texas Tech": {
+      "espn_team_id": "2641",
+      "conference": "Big 12",
+      "youtube_name": "Texas Tech",
+      "domain": "texastech.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://texastech.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "UC Santa Barbara": {
+      "espn_team_id": "2540",
+      "conference": "Big West",
+      "youtube_name": "UC Santa Barbara",
+      "domain": "ucsbgauchos.com",
+      "platform": "sidearm",
+      "schedule_url": "https://ucsbgauchos.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "UCF": {
+      "espn_team_id": "2116",
+      "conference": "Big 12",
+      "youtube_name": "UCF",
+      "domain": "ucfknights.com",
+      "platform": "wmt",
+      "schedule_url": "https://ucfknights.com/sports/womens-basketball/schedule",
+      "wmt_schedule_id": 918,
+      "enabled": true,
+      "note": "WMT : aucun match joué au 3 novembre, format du box score à confirmer au premier match."
+    },
+    "UConn": {
+      "espn_team_id": "41",
+      "conference": "Big East",
+      "youtube_name": "UConn",
+      "domain": "uconnhuskies.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://uconnhuskies.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "UNC Greensboro": {
+      "espn_team_id": "2430",
+      "conference": "SoCon",
+      "youtube_name": "UNC Greensboro",
+      "domain": "uncgspartans.com",
+      "platform": "sidearm",
+      "schedule_url": "https://uncgspartans.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "UT Arlington": {
+      "espn_team_id": "250",
+      "conference": "UAC",
+      "youtube_name": "UT Arlington",
+      "domain": "utamavs.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://utamavs.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "UTRGV": {
+      "espn_team_id": "292",
+      "conference": "Southland",
+      "youtube_name": "UTRGV",
+      "domain": "goutrgv.com",
+      "platform": "sidearm",
+      "schedule_url": "https://goutrgv.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Washington State": {
+      "espn_team_id": "265",
+      "conference": "Pac-12",
+      "youtube_name": "Washington State",
+      "domain": "wsucougars.com",
+      "platform": "wmt",
+      "schedule_url": "https://wsucougars.com/sports/womens-basketball/schedule",
+      "wmt_schedule_id": 595,
+      "enabled": true,
+      "note": "WMT, stats v2 : box score sur wmt.games (JSON __NUXT_DATA__)."
+    },
+    "Weber State": {
+      "espn_team_id": "2692",
+      "conference": "Big Sky",
+      "youtube_name": "Weber State",
+      "domain": "weberstatesports.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://weberstatesports.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    },
+    "Xavier": {
+      "espn_team_id": "2752",
+      "conference": "Big East",
+      "youtube_name": "Xavier",
+      "domain": "goxavier.com",
+      "platform": "sidearm-nuxt",
+      "schedule_url": "https://goxavier.com/sports/womens-basketball/schedule/2026-27",
+      "enabled": true,
+      "note": ""
+    }
+  }
+}

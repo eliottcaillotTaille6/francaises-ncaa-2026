@@ -1,0 +1,80 @@
+name: Mise à jour quotidienne
+
+on:
+  schedule:
+    # 9 h UTC = 10 h à Paris en hiver (11 h à partir du passage à l'heure d'été).
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "Rattrapage : date de début (AAAA-MM-JJ, US Eastern). Vide = veille + jour."
+        required: false
+      to:
+        description: "Rattrapage : date de fin (AAAA-MM-JJ). Vide = aujourd'hui."
+        required: false
+  push:
+    branches: [main]
+    paths: ["public/**", "config/**", "data/players.json", "data/sources.json"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Cache HTTP local : évite de retélécharger les box scores déjà lus.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/http
+          key: http-${{ github.run_id }}
+          restore-keys: http-
+
+      - name: Récupération des matchs
+        if: github.event_name != 'push'
+        run: |
+          if [ -n "${{ inputs.from }}" ]; then
+            node scripts/update.mjs --from "${{ inputs.from }}" ${{ inputs.to && format('--to {0}', inputs.to) || '' }}
+          else
+            node scripts/update.mjs
+          fi
+
+      - name: Commit des données
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "taille6-bot"
+          git config user.email "taille6-bot@users.noreply.github.com"
+          git add data/games.json data/missing-games.md data/discrepancies.md
+          git diff --cached --quiet || git commit -m "Données du $(TZ=America/New_York date +%F)"
+          git push
+
+      - run: node scripts/build-site.mjs
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

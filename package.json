@@ -1,0 +1,22 @@
+{
+  "name": "taille6-ncaa",
+  "version": "1.0.0",
+  "description": "Taille 6 — les Françaises en NCAA D1, match par match",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "backfill": "node scripts/update.mjs --from 2026-11-02",
+    "match": "node scripts/match-players.mjs",
+    "sources": "node scripts/build-sources.mjs",
+    "import": "node scripts/import-players.mjs",
+    "build": "node scripts/build-site.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

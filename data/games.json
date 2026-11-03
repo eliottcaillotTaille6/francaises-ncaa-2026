@@ -1,0 +1,2051 @@
+{
+ "updated": "2026-11-03T11:49:11.989Z",
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "2026-11-02-arkansas-state-at-ball-state",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T23:30Z",
+   "time_local": "6:30 PM",
+   "neutral": false,
+   "home": {
+    "name": "Ball State",
+    "team": "Ball State",
+    "score": 84,
+    "espn_id": "2050"
+   },
+   "away": {
+    "name": "Arkansas State",
+    "team": null,
+    "score": 74,
+    "espn_id": "2032"
+   },
+   "teams": [
+    "Ball State"
+   ],
+   "espn_event_id": "401918703",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918703",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401918703",
+    "fac": {
+     "Ball State": {
+      "box": "https://ballstatesports.com/sports/womens-basketball/stats/2026-27/arkansas-state-university/boxscore/14611",
+      "pbp": "https://ballstatesports.com/sports/womens-basketball/stats/2026-27/arkansas-state-university/boxscore/14611"
+     }
+    },
+    "official_box": "https://ballstatesports.com/sports/womens-basketball/stats/2026-27/arkansas-state-university/boxscore/14611"
+   },
+   "lines": {
+    "aniss-tagayi": {
+     "player_id": "aniss-tagayi",
+     "team": "Ball State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 25,
+      "pts": 5,
+      "fgm": 2,
+      "fga": 4,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 1,
+      "fta": 2,
+      "oreb": 1,
+      "dreb": 2,
+      "reb": 3,
+      "ast": 4,
+      "stl": 0,
+      "blk": 0,
+      "to": 3,
+      "pf": 4
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918703",
+     "updated": "2026-11-03T11:48:53.645Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-arlington-baptist-at-utrgv",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T23:00Z",
+   "time_local": "5 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "UTRGV",
+    "team": "UTRGV",
+    "score": 114,
+    "espn_id": "292"
+   },
+   "away": {
+    "name": "Arlington Baptist",
+    "team": null,
+    "score": 47,
+    "espn_id": "3166"
+   },
+   "teams": [
+    "UTRGV"
+   ],
+   "espn_event_id": "401922843",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401922843",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401922843",
+    "fac": {
+     "UTRGV": {
+      "box": "https://goutrgv.com/sports/womens-basketball/stats/2026-27/arlington-baptist/boxscore/29671",
+      "pbp": "https://goutrgv.com/sports/womens-basketball/stats/2026-27/arlington-baptist/boxscore/29671#play-by-play"
+     }
+    },
+    "official_box": "https://goutrgv.com/sports/womens-basketball/stats/2026-27/arlington-baptist/boxscore/29671"
+   },
+   "lines": {
+    "lina-fimbo": {
+     "player_id": "lina-fimbo",
+     "team": "UTRGV",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 17,
+      "pts": 11,
+      "fgm": 3,
+      "fga": 4,
+      "tpm": 2,
+      "tpa": 2,
+      "ftm": 3,
+      "fta": 4,
+      "oreb": 2,
+      "dreb": 5,
+      "reb": 7,
+      "ast": 0,
+      "stl": 1,
+      "blk": 0,
+      "to": 1,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401922843",
+     "updated": "2026-11-03T11:48:53.731Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-belmont-at-princeton",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:30Z",
+   "time_local": "7:30 PM",
+   "neutral": false,
+   "home": {
+    "name": "Princeton",
+    "team": "Princeton",
+    "score": 63,
+    "espn_id": "163"
+   },
+   "away": {
+    "name": "Belmont",
+    "team": null,
+    "score": 52,
+    "espn_id": "2057"
+   },
+   "teams": [
+    "Princeton"
+   ],
+   "espn_event_id": "401915322",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915322",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401915322",
+    "fac": {
+     "Princeton": {
+      "box": "https://goprincetontigers.com/sports/womens-basketball/stats/2026-27/belmont/boxscore/21844",
+      "pbp": "https://goprincetontigers.com/sports/womens-basketball/stats/2026-27/belmont/boxscore/21844"
+     }
+    },
+    "official_box": "https://goprincetontigers.com/sports/womens-basketball/stats/2026-27/belmont/boxscore/21844"
+   },
+   "lines": {
+    "sarah-aldeguer": {
+     "player_id": "sarah-aldeguer",
+     "team": "Princeton",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915322",
+     "updated": "2026-11-03T11:48:53.759Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-boston-university-at-dartmouth",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T23:30Z",
+   "time_local": "6:30 PM",
+   "neutral": false,
+   "home": {
+    "name": "Dartmouth",
+    "team": "Dartmouth",
+    "score": 56,
+    "espn_id": "159"
+   },
+   "away": {
+    "name": "Boston University",
+    "team": null,
+    "score": 49,
+    "espn_id": "104"
+   },
+   "teams": [
+    "Dartmouth"
+   ],
+   "espn_event_id": "401919514",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401919514",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401919514",
+    "fac": {
+     "Dartmouth": {
+      "box": "https://dartmouthsports.com/sports/womens-basketball/stats/2026-27/boston-university/boxscore/31797",
+      "pbp": "https://dartmouthsports.com/sports/womens-basketball/stats/2026-27/boston-university/boxscore/31797"
+     }
+    },
+    "official_box": "https://dartmouthsports.com/sports/womens-basketball/stats/2026-27/boston-university/boxscore/31797"
+   },
+   "lines": {
+    "maya-shifrin": {
+     "player_id": "maya-shifrin",
+     "team": "Dartmouth",
+     "status": "absent",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401919514",
+     "updated": "2026-11-03T01:31:05.287Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-cornell-at-uconn",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T22:00Z",
+   "time_local": "5:00 PM",
+   "neutral": false,
+   "home": {
+    "name": "UConn",
+    "team": "UConn",
+    "score": 100,
+    "espn_id": "41"
+   },
+   "away": {
+    "name": "Cornell",
+    "team": null,
+    "score": 35,
+    "espn_id": "172"
+   },
+   "teams": [
+    "UConn"
+   ],
+   "espn_event_id": "401911736",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911736",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401911736",
+    "fac": {
+     "UConn": {
+      "box": "https://uconnhuskies.com/sports/womens-basketball/stats/2026-27/cornell/boxscore/25768",
+      "pbp": "https://uconnhuskies.com/sports/womens-basketball/stats/2026-27/cornell/boxscore/25768"
+     }
+    },
+    "official_box": "https://uconnhuskies.com/sports/womens-basketball/stats/2026-27/cornell/boxscore/25768"
+   },
+   "lines": {
+    "marine-dursus": {
+     "player_id": "marine-dursus",
+     "team": "UConn",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 16,
+      "pts": 11,
+      "fgm": 4,
+      "fga": 5,
+      "tpm": 3,
+      "tpa": 4,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 1,
+      "stl": 2,
+      "blk": 0,
+      "to": 3,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911736",
+     "updated": "2026-11-03T11:48:53.624Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": "https://www.youtube.com/watch?v=ezn0wvp9iUI",
+    "title": "UConn vs Cornell Full Game | Women's Basketball Nov 2,2026",
+    "channel": "Walter Gaming"
+   }
+  },
+  {
+   "id": "2026-11-02-duquesne-at-tennessee",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T23:30Z",
+   "time_local": "6:30 P.M. ET",
+   "neutral": false,
+   "home": {
+    "name": "Tennessee",
+    "team": "Tennessee",
+    "score": 109,
+    "espn_id": "2633"
+   },
+   "away": {
+    "name": "Duquesne",
+    "team": null,
+    "score": 62,
+    "espn_id": "2184"
+   },
+   "teams": [
+    "Tennessee"
+   ],
+   "espn_event_id": "401912952",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401912952",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401912952",
+    "fac": {
+     "Tennessee": {
+      "box": "https://utsports.com/sports/womens-basketball/stats/2026-27/duquesne/boxscore/30213",
+      "pbp": "https://utsports.com/sports/womens-basketball/stats/2026-27/duquesne/boxscore/30213"
+     }
+    },
+    "official_box": "https://utsports.com/sports/womens-basketball/stats/2026-27/duquesne/boxscore/30213"
+   },
+   "lines": {
+    "harissoum-coulibaly": {
+     "player_id": "harissoum-coulibaly",
+     "team": "Tennessee",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 12,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 5,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 2,
+      "dreb": 1,
+      "reb": 3,
+      "ast": 1,
+      "stl": 0,
+      "blk": 0,
+      "to": 0,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401912952",
+     "updated": "2026-11-03T11:48:53.689Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": "https://www.youtube.com/watch?v=tn0WFQ00ato",
+    "title": "Duquesne vs Tennessee Full Game | Women's Basketball Nov 2,2026",
+    "channel": "Walter Gaming"
+   }
+  },
+  {
+   "id": "2026-11-02-florida-atlantic-at-miami",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "",
+   "neutral": false,
+   "home": {
+    "name": "Miami",
+    "team": "Miami",
+    "score": 75,
+    "espn_id": "2390"
+   },
+   "away": {
+    "name": "Florida Atlantic",
+    "team": null,
+    "score": 48,
+    "espn_id": "2226"
+   },
+   "teams": [
+    "Miami"
+   ],
+   "espn_event_id": "401913723",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913723",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401913723",
+    "fac": {
+     "Miami": {
+      "box": "https://miamihurricanes.com/boxscore/15746",
+      "pbp": "https://stats.miamihurricanes.com/stats/game/15746"
+     }
+    },
+    "official_box": "https://miamihurricanes.com/boxscore/15746"
+   },
+   "lines": {
+    "dayana-mendes": {
+     "player_id": "dayana-mendes",
+     "team": "Miami",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 18,
+      "pts": 7,
+      "fgm": 2,
+      "fga": 4,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 3,
+      "fta": 4,
+      "oreb": 1,
+      "dreb": 2,
+      "reb": 3,
+      "ast": 0,
+      "stl": 1,
+      "blk": 0,
+      "to": 1,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913723",
+     "updated": "2026-11-03T11:48:53.603Z"
+    },
+    "jess-mine-zodia": {
+     "player_id": "jess-mine-zodia",
+     "team": "Miami",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 17,
+      "pts": 9,
+      "fgm": 3,
+      "fga": 7,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 3,
+      "fta": 3,
+      "oreb": 1,
+      "dreb": 3,
+      "reb": 4,
+      "ast": 1,
+      "stl": 0,
+      "blk": 0,
+      "to": 5,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913723",
+     "updated": "2026-11-03T11:48:53.603Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-hampton-at-houston",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T18:00Z",
+   "time_local": "Noon",
+   "neutral": false,
+   "home": {
+    "name": "Houston",
+    "team": "Houston",
+    "score": 73,
+    "espn_id": "248"
+   },
+   "away": {
+    "name": "Hampton",
+    "team": null,
+    "score": 65,
+    "espn_id": "2261"
+   },
+   "teams": [
+    "Houston"
+   ],
+   "espn_event_id": "401923478",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923478",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401923478",
+    "fac": {
+     "Houston": {
+      "box": "https://uhcougars.com/sports/womens-basketball/stats/2026-27/hampton/boxscore/17058",
+      "pbp": "https://uhcougars.com/sports/womens-basketball/stats/2026-27/hampton/boxscore/17058"
+     }
+    },
+    "official_box": "https://uhcougars.com/sports/womens-basketball/stats/2026-27/hampton/boxscore/17058"
+   },
+   "lines": {
+    "elodie-lutbert": {
+     "player_id": "elodie-lutbert",
+     "team": "Houston",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 16,
+      "pts": 14,
+      "fgm": 7,
+      "fga": 10,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 3,
+      "oreb": 4,
+      "dreb": 9,
+      "reb": 13,
+      "ast": 1,
+      "stl": 0,
+      "blk": 1,
+      "to": 1,
+      "pf": 5
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923478",
+     "updated": "2026-11-03T11:48:53.552Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-hendrix-at-central-arkansas",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T23:00Z",
+   "time_local": "5 P.M.",
+   "neutral": false,
+   "home": {
+    "name": "Central Arkansas",
+    "team": "Central Arkansas",
+    "score": 97,
+    "espn_id": "2110"
+   },
+   "away": {
+    "name": "Hendrix",
+    "team": null,
+    "score": 40,
+    "espn_id": "418"
+   },
+   "teams": [
+    "Central Arkansas"
+   ],
+   "espn_event_id": "401918517",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918517",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401918517",
+    "fac": {
+     "Central Arkansas": {
+      "box": "https://ucasports.com/sports/womens-basketball/stats/2026-27/hendrix/boxscore/12500",
+      "pbp": "https://ucasports.com/sports/womens-basketball/stats/2026-27/hendrix/boxscore/12500#play-by-play"
+     }
+    },
+    "official_box": "https://ucasports.com/sports/womens-basketball/stats/2026-27/hendrix/boxscore/12500"
+   },
+   "lines": {
+    "linda-amaning": {
+     "player_id": "linda-amaning",
+     "team": "Central Arkansas",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 19,
+      "pts": 10,
+      "fgm": 5,
+      "fga": 11,
+      "tpm": 0,
+      "tpa": 2,
+      "ftm": 0,
+      "fta": 1,
+      "oreb": 3,
+      "dreb": 5,
+      "reb": 8,
+      "ast": 1,
+      "stl": 1,
+      "blk": 2,
+      "to": 0,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918517",
+     "updated": "2026-11-03T11:48:53.564Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-james-madison-at-miami-ohio",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "7 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "Miami (Ohio)",
+    "team": "Miami (Ohio)",
+    "score": 59,
+    "espn_id": "193"
+   },
+   "away": {
+    "name": "James Madison",
+    "team": null,
+    "score": 52,
+    "espn_id": "256"
+   },
+   "teams": [
+    "Miami (Ohio)"
+   ],
+   "espn_event_id": "401918675",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918675",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401918675",
+    "fac": {
+     "Miami (Ohio)": {
+      "box": "https://miamiredhawks.com/sports/womens-basketball/stats/2026-27/james-madison/boxscore/21006",
+      "pbp": "https://miamiredhawks.com/sports/womens-basketball/stats/2026-27/james-madison/boxscore/21006"
+     }
+    },
+    "official_box": "https://miamiredhawks.com/sports/womens-basketball/stats/2026-27/james-madison/boxscore/21006"
+   },
+   "lines": {
+    "jade-ondineme": {
+     "player_id": "jade-ondineme",
+     "team": "Miami (Ohio)",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 3,
+      "pts": 2,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 2,
+      "fta": 4,
+      "oreb": 1,
+      "dreb": 0,
+      "reb": 1,
+      "ast": 0,
+      "stl": 0,
+      "blk": 0,
+      "to": 1,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918675",
+     "updated": "2026-11-03T11:48:53.613Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-lindenwood-at-colorado-state",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:30Z",
+   "time_local": "5:30 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "Colorado State",
+    "team": "Colorado State",
+    "score": 63,
+    "espn_id": "36"
+   },
+   "away": {
+    "name": "Lindenwood",
+    "team": null,
+    "score": 46,
+    "espn_id": "2815"
+   },
+   "teams": [
+    "Colorado State"
+   ],
+   "espn_event_id": "401927946",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927946",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401927946",
+    "fac": {
+     "Colorado State": {
+      "box": "https://csurams.com/sports/womens-basketball/stats/2026-27/lindenwood/boxscore/22231",
+      "pbp": "https://csurams.com/sports/womens-basketball/stats/2026-27/lindenwood/boxscore/22231"
+     }
+    },
+    "official_box": "https://csurams.com/sports/womens-basketball/stats/2026-27/lindenwood/boxscore/22231"
+   },
+   "lines": {
+    "sophie-sene": {
+     "player_id": "sophie-sene",
+     "team": "Colorado State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 16,
+      "pts": 4,
+      "fgm": 2,
+      "fga": 4,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 5,
+      "dreb": 1,
+      "reb": 6,
+      "ast": 0,
+      "stl": 2,
+      "blk": 0,
+      "to": 2,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927946",
+     "updated": "2026-11-03T11:48:53.634Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-louisiana-monroe-at-ohio",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "6 p.m. CT / 7 p.m. ET",
+   "neutral": false,
+   "home": {
+    "name": "Ohio",
+    "team": null,
+    "score": 57,
+    "espn_id": "195"
+   },
+   "away": {
+    "name": "Louisiana-Monroe",
+    "team": "Louisiana-Monroe",
+    "score": 46,
+    "espn_id": "2433"
+   },
+   "teams": [
+    "Louisiana-Monroe"
+   ],
+   "espn_event_id": "401918646",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918646",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401918646",
+    "fac": {
+     "Louisiana-Monroe": {
+      "box": "https://ulmwarhawks.com/sports/womens-basketball/stats/2026-27/ohio/boxscore/16690",
+      "pbp": "https://ulmwarhawks.com/sports/womens-basketball/stats/2026-27/ohio/boxscore/16690#play-by-play"
+     }
+    },
+    "official_box": "https://ulmwarhawks.com/sports/womens-basketball/stats/2026-27/ohio/boxscore/16690"
+   },
+   "lines": {
+    "lea-nadolny": {
+     "player_id": "lea-nadolny",
+     "team": "Louisiana-Monroe",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 17,
+      "pts": 1,
+      "fgm": 0,
+      "fga": 1,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 1,
+      "fta": 2,
+      "oreb": 1,
+      "dreb": 2,
+      "reb": 3,
+      "ast": 1,
+      "stl": 0,
+      "blk": 0,
+      "to": 0,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918646",
+     "updated": "2026-11-03T11:48:53.746Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-maryland-at-south-carolina",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T17:00Z",
+   "time_local": "",
+   "neutral": true,
+   "home": {
+    "name": "South Carolina",
+    "team": "South Carolina",
+    "score": 101,
+    "espn_id": "2579"
+   },
+   "away": {
+    "name": "Maryland",
+    "team": null,
+    "score": 93,
+    "espn_id": "120"
+   },
+   "teams": [
+    "South Carolina"
+   ],
+   "espn_event_id": "401918849",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918849",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401918849"
+   },
+   "lines": {
+    "alicia-tournebize": {
+     "player_id": "alicia-tournebize",
+     "team": "South Carolina",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 3,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 0,
+      "stl": 0,
+      "blk": 1,
+      "to": 0,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918849",
+     "updated": "2026-11-03T11:48:53.577Z"
+    },
+    "justine-loubens": {
+     "player_id": "justine-loubens",
+     "team": "South Carolina",
+     "status": "absent",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918849",
+     "updated": "2026-11-03T11:48:53.577Z"
+    }
+   },
+   "sources": [
+    "espn"
+   ],
+   "youtube": {
+    "url": "https://www.youtube.com/watch?v=_AvQqSFaj5s",
+    "title": "South Carolina vs Maryland Full Game | College Women Basketball Nov 2,2026",
+    "channel": "Walter Gaming"
+   }
+  },
+  {
+   "id": "2026-11-02-navy-at-mount-st-marys",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "",
+   "neutral": false,
+   "home": {
+    "name": "Mount St. Mary's",
+    "team": "Mount St. Mary's",
+    "score": 63,
+    "espn_id": "116"
+   },
+   "away": {
+    "name": "Navy",
+    "team": null,
+    "score": 91,
+    "espn_id": "2426"
+   },
+   "teams": [
+    "Mount St. Mary's"
+   ],
+   "espn_event_id": "401916162",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916162",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401916162",
+    "fac": {
+     "Mount St. Mary's": {
+      "box": "https://mountathletics.com/sports/womens-basketball/stats/2026-27/navy/boxscore/10228",
+      "pbp": "https://mountathletics.com/sports/womens-basketball/stats/2026-27/navy/boxscore/10228#play-by-play"
+     }
+    },
+    "official_box": "https://mountathletics.com/sports/womens-basketball/stats/2026-27/navy/boxscore/10228"
+   },
+   "lines": {
+    "thelma-barbitch": {
+     "player_id": "thelma-barbitch",
+     "team": "Mount St. Mary's",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 15,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 5,
+      "tpm": 0,
+      "tpa": 4,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 2,
+      "reb": 2,
+      "ast": 0,
+      "stl": 0,
+      "blk": 0,
+      "to": 1,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916162",
+     "updated": "2026-11-03T11:48:53.673Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-north-carolina-at-oklahoma",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T19:50Z",
+   "time_local": "1:30 PM",
+   "neutral": true,
+   "home": {
+    "name": "Oklahoma",
+    "team": "Oklahoma",
+    "score": 91,
+    "espn_id": "201"
+   },
+   "away": {
+    "name": "North Carolina",
+    "team": null,
+    "score": 79,
+    "espn_id": "153"
+   },
+   "teams": [
+    "Oklahoma"
+   ],
+   "espn_event_id": "401906088",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906088",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401906088",
+    "fac": {
+     "Oklahoma": {
+      "box": "https://soonersports.com/sports/womens-basketball/stats/2026-27/north-carolina/boxscore/15824",
+      "pbp": "https://soonersports.com/sports/womens-basketball/stats/2026-27/north-carolina/boxscore/15824"
+     }
+    },
+    "official_box": "https://soonersports.com/sports/womens-basketball/stats/2026-27/north-carolina/boxscore/15824"
+   },
+   "lines": {
+    "daffa-cissoko": {
+     "player_id": "daffa-cissoko",
+     "team": "Oklahoma",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906088",
+     "updated": "2026-11-03T11:48:53.714Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": "https://www.youtube.com/watch?v=_62obune8VQ",
+    "title": "Oklahoma vs North Carolina Full Game | College Women Basketball Nov 2,2026",
+    "channel": "Walter Gaming"
+   }
+  },
+  {
+   "id": "2026-11-02-notre-dame-md-at-loyola-maryland",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "",
+   "neutral": false,
+   "home": {
+    "name": "Loyola Maryland",
+    "team": "Loyola Maryland",
+    "score": 76,
+    "espn_id": "2352"
+   },
+   "away": {
+    "name": "Notre Dame (MD)",
+    "team": null,
+    "score": 30,
+    "espn_id": "109716"
+   },
+   "teams": [
+    "Loyola Maryland"
+   ],
+   "espn_event_id": "401926015",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926015",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401926015",
+    "fac": {
+     "Loyola Maryland": {
+      "box": "https://loyolagreyhounds.com/sports/womens-basketball/stats/2026-27/notre-dame-md-/boxscore/18168",
+      "pbp": "https://loyolagreyhounds.com/sports/womens-basketball/stats/2026-27/notre-dame-md-/boxscore/18168#play-by-play"
+     }
+    },
+    "official_box": "https://loyolagreyhounds.com/sports/womens-basketball/stats/2026-27/notre-dame-md-/boxscore/18168"
+   },
+   "lines": {
+    "amandine-amorich": {
+     "player_id": "amandine-amorich",
+     "team": "Loyola Maryland",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 21,
+      "pts": 11,
+      "fgm": 5,
+      "fga": 8,
+      "tpm": 1,
+      "tpa": 3,
+      "ftm": 0,
+      "fta": 2,
+      "oreb": 4,
+      "dreb": 4,
+      "reb": 8,
+      "ast": 2,
+      "stl": 1,
+      "blk": 0,
+      "to": 0,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926015",
+     "updated": "2026-11-03T11:48:53.665Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-oglethorpe-at-jacksonville-state",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T23:00Z",
+   "time_local": "5 PM",
+   "neutral": false,
+   "home": {
+    "name": "Jacksonville State",
+    "team": "Jacksonville State",
+    "score": 75,
+    "espn_id": "55"
+   },
+   "away": {
+    "name": "Oglethorpe",
+    "team": null,
+    "score": 39,
+    "espn_id": "2476"
+   },
+   "teams": [
+    "Jacksonville State"
+   ],
+   "espn_event_id": "401927989",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927989",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401927989",
+    "fac": {
+     "Jacksonville State": {
+      "box": "https://jaxstatesports.com/sports/womens-basketball/stats/2026-27/oglethorpe/boxscore/8854",
+      "pbp": "https://jaxstatesports.com/sports/womens-basketball/stats/2026-27/oglethorpe/boxscore/8854"
+     }
+    },
+    "official_box": "https://jaxstatesports.com/sports/womens-basketball/stats/2026-27/oglethorpe/boxscore/8854"
+   },
+   "lines": {
+    "kayna-chnina": {
+     "player_id": "kayna-chnina",
+     "team": "Jacksonville State",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 1,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 0,
+      "stl": 0,
+      "blk": 0,
+      "to": 1,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927989",
+     "updated": "2026-11-03T11:48:53.740Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-old-dominion-at-central-michigan",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-02T16:00Z",
+   "time_local": "11 a.m.",
+   "neutral": false,
+   "home": {
+    "name": "Central Michigan",
+    "team": "Central Michigan",
+    "score": 58,
+    "espn_id": "2117"
+   },
+   "away": {
+    "name": "Old Dominion",
+    "team": null,
+    "score": 62,
+    "espn_id": "295"
+   },
+   "teams": [
+    "Central Michigan"
+   ],
+   "espn_event_id": "401929167",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401929167",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401929167",
+    "fac": {
+     "Central Michigan": {
+      "box": "https://cmuchippewas.com/sports/womens-basketball/stats/2026-27/old-dominion/boxscore/15709",
+      "pbp": "https://cmuchippewas.com/sports/womens-basketball/stats/2026-27/old-dominion/boxscore/15709"
+     }
+    },
+    "official_box": "https://cmuchippewas.com/sports/womens-basketball/stats/2026-27/old-dominion/boxscore/15709"
+   },
+   "lines": {
+    "jawelle-daquin": {
+     "player_id": "jawelle-daquin",
+     "team": "Central Michigan",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 4,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 1,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 0,
+      "fta": 2,
+      "oreb": 2,
+      "dreb": 0,
+      "reb": 2,
+      "ast": 0,
+      "stl": 1,
+      "blk": 0,
+      "to": 1,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401929167",
+     "updated": "2026-11-03T11:48:53.589Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-presbyterian-at-unc-greensboro",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "7:00 PM",
+   "neutral": false,
+   "home": {
+    "name": "UNC Greensboro",
+    "team": "UNC Greensboro",
+    "score": 58,
+    "espn_id": "2430"
+   },
+   "away": {
+    "name": "Presbyterian",
+    "team": "Presbyterian",
+    "score": 50,
+    "espn_id": "2506"
+   },
+   "teams": [
+    "Presbyterian",
+    "UNC Greensboro"
+   ],
+   "espn_event_id": "401927035",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927035",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401927035",
+    "fac": {
+     "Presbyterian": {
+      "box": "https://gobluehose.com/sports/womens-basketball/stats/2026-27/unc-greensboro/boxscore/14434",
+      "pbp": "https://gobluehose.com/sports/womens-basketball/stats/2026-27/unc-greensboro/boxscore/14434#play-by-play"
+     },
+     "UNC Greensboro": {
+      "box": "https://uncgspartans.com/sports/womens-basketball/stats/2026-27/presbyterian/boxscore/10147",
+      "pbp": "https://uncgspartans.com/sports/womens-basketball/stats/2026-27/presbyterian/boxscore/10147#play-by-play"
+     }
+    },
+    "official_box": "https://gobluehose.com/sports/womens-basketball/stats/2026-27/unc-greensboro/boxscore/14434"
+   },
+   "lines": {
+    "fiona-diomande": {
+     "player_id": "fiona-diomande",
+     "team": "Presbyterian",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927035",
+     "updated": "2026-11-03T11:48:53.678Z"
+    },
+    "salimata-traore": {
+     "player_id": "salimata-traore",
+     "team": "UNC Greensboro",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927035",
+     "updated": "2026-11-03T11:48:53.703Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-saint-louis-at-middle-tennessee",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:30Z",
+   "time_local": "6:30 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "Middle Tennessee",
+    "team": "Middle Tennessee",
+    "score": 91,
+    "espn_id": "2393"
+   },
+   "away": {
+    "name": "Saint Louis",
+    "team": null,
+    "score": 84,
+    "espn_id": "139"
+   },
+   "teams": [
+    "Middle Tennessee"
+   ],
+   "espn_event_id": "401921232",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921232",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401921232",
+    "fac": {
+     "Middle Tennessee": {
+      "box": "https://goblueraiders.com/sports/womens-basketball/stats/2026-27/saint-louis/boxscore/15942",
+      "pbp": "https://goblueraiders.com/sports/womens-basketball/stats/2026-27/saint-louis/boxscore/15942"
+     }
+    },
+    "official_box": "https://goblueraiders.com/sports/womens-basketball/stats/2026-27/saint-louis/boxscore/15942"
+   },
+   "lines": {
+    "nora-ahamadi": {
+     "player_id": "nora-ahamadi",
+     "team": "Middle Tennessee",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921232",
+     "updated": "2026-11-03T11:48:53.700Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-san-diego-at-new-mexico-state",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T01:00Z",
+   "time_local": "6:00 p.m. MT",
+   "neutral": false,
+   "home": {
+    "name": "New Mexico State",
+    "team": "New Mexico State",
+    "score": 56,
+    "espn_id": "166"
+   },
+   "away": {
+    "name": "San Diego",
+    "team": null,
+    "score": 61,
+    "espn_id": "301"
+   },
+   "teams": [
+    "New Mexico State"
+   ],
+   "espn_event_id": "401917680",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401917680",
+    "fac": {
+     "New Mexico State": {
+      "box": "https://nmstatesports.com/sports/womens-basketball/stats/2026-27/san-diego/boxscore/19537",
+      "pbp": "https://nmstatesports.com/sports/womens-basketball/stats/2026-27/san-diego/boxscore/19537#play-by-play"
+     }
+    },
+    "official_box": "https://nmstatesports.com/sports/womens-basketball/stats/2026-27/san-diego/boxscore/19537"
+   },
+   "lines": {
+    "fanta-keita": {
+     "player_id": "fanta-keita",
+     "team": "New Mexico State",
+     "status": "absent",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.657Z"
+    },
+    "aissatou-keita": {
+     "player_id": "aissatou-keita",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 15,
+      "pts": 2,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 2,
+      "fta": 2,
+      "oreb": 0,
+      "dreb": 3,
+      "reb": 3,
+      "ast": 0,
+      "stl": 1,
+      "blk": 0,
+      "to": 2,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "aimee-michel": {
+     "player_id": "aimee-michel",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 32,
+      "pts": 11,
+      "fgm": 2,
+      "fga": 7,
+      "tpm": 0,
+      "tpa": 2,
+      "ftm": 7,
+      "fta": 9,
+      "oreb": 2,
+      "dreb": 3,
+      "reb": 5,
+      "ast": 1,
+      "stl": 0,
+      "blk": 0,
+      "to": 4,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "eva-agba": {
+     "player_id": "eva-agba",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 20,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 6,
+      "tpm": 0,
+      "tpa": 3,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 1,
+      "reb": 1,
+      "ast": 1,
+      "stl": 1,
+      "blk": 0,
+      "to": 2,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "imane-loubibet": {
+     "player_id": "imane-loubibet",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 1,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 1,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 0,
+      "stl": 1,
+      "blk": 0,
+      "to": 0,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "lilyana-fontcha": {
+     "player_id": "lilyana-fontcha",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 28,
+      "pts": 10,
+      "fgm": 5,
+      "fga": 8,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 4,
+      "dreb": 7,
+      "reb": 11,
+      "ast": 0,
+      "stl": 0,
+      "blk": 1,
+      "to": 4,
+      "pf": 4
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "talia-kavoka": {
+     "player_id": "talia-kavoka",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 29,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 6,
+      "tpm": 0,
+      "tpa": 3,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 1,
+      "reb": 1,
+      "ast": 3,
+      "stl": 2,
+      "blk": 0,
+      "to": 2,
+      "pf": 3
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "justine-mouyokolo": {
+     "player_id": "justine-mouyokolo",
+     "team": "New Mexico State",
+     "status": "absent",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "eva-hamlil": {
+     "player_id": "eva-hamlil",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 16,
+      "pts": 1,
+      "fgm": 0,
+      "fga": 2,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 1,
+      "fta": 6,
+      "oreb": 0,
+      "dreb": 1,
+      "reb": 1,
+      "ast": 0,
+      "stl": 0,
+      "blk": 0,
+      "to": 0,
+      "pf": 5
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.658Z"
+    },
+    "julia-saillard": {
+     "player_id": "julia-saillard",
+     "team": "New Mexico State",
+     "status": "absent",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.659Z"
+    },
+    "sena-sert": {
+     "player_id": "sena-sert",
+     "team": "New Mexico State",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.659Z"
+    },
+    "stacy-chovino": {
+     "player_id": "stacy-chovino",
+     "team": "New Mexico State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 31,
+      "pts": 6,
+      "fgm": 3,
+      "fga": 10,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 4,
+      "dreb": 5,
+      "reb": 9,
+      "ast": 1,
+      "stl": 2,
+      "blk": 1,
+      "to": 3,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917680",
+     "updated": "2026-11-03T11:48:53.659Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-temple-at-george-mason",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "7 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "George Mason",
+    "team": "George Mason",
+    "score": 91,
+    "espn_id": "2244"
+   },
+   "away": {
+    "name": "Temple",
+    "team": null,
+    "score": 71,
+    "espn_id": "218"
+   },
+   "teams": [
+    "George Mason"
+   ],
+   "espn_event_id": "401921077",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921077",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401921077",
+    "fac": {
+     "George Mason": {
+      "box": "https://gomason.com/sports/womens-basketball/stats/2026-27/temple/boxscore/14262",
+      "pbp": "https://gomason.com/sports/womens-basketball/stats/2026-27/temple/boxscore/14262#play-by-play"
+     }
+    },
+    "official_box": "https://gomason.com/sports/womens-basketball/stats/2026-27/temple/boxscore/14262"
+   },
+   "lines": {
+    "mary-kate-tshibuabua": {
+     "player_id": "mary-kate-tshibuabua",
+     "team": "George Mason",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 23,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 4,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 0,
+      "fta": 2,
+      "oreb": 1,
+      "dreb": 6,
+      "reb": 7,
+      "ast": 1,
+      "stl": 0,
+      "blk": 1,
+      "to": 3,
+      "pf": 3
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921077",
+     "updated": "2026-11-03T11:48:53.652Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-washington-state-at-california",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T03:00Z",
+   "time_local": "",
+   "neutral": false,
+   "home": {
+    "name": "California",
+    "team": null,
+    "score": 80,
+    "espn_id": "25"
+   },
+   "away": {
+    "name": "Washington State",
+    "team": "Washington State",
+    "score": 58,
+    "espn_id": "265"
+   },
+   "teams": [
+    "Washington State"
+   ],
+   "espn_event_id": "401903553",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903553",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401903553",
+    "fac": {
+     "Washington State": {
+      "box": "https://wsucougars.com/boxscore/13617",
+      "pbp": "https://wmt.games/wsucougars/stats/match/full/6666235"
+     }
+    },
+    "official_box": "https://wsucougars.com/boxscore/13617"
+   },
+   "lines": {
+    "charlotte-abraham": {
+     "player_id": "charlotte-abraham",
+     "team": "Washington State",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 25,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 6,
+      "tpm": 0,
+      "tpa": 5,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 6,
+      "reb": 6,
+      "ast": 0,
+      "stl": 1,
+      "blk": 0,
+      "to": 1,
+      "pf": 3
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903553",
+     "updated": "2026-11-03T11:48:53.558Z"
+    },
+    "tahara-magassa": {
+     "player_id": "tahara-magassa",
+     "team": "Washington State",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 2,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 1,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 0,
+      "stl": 0,
+      "blk": 0,
+      "to": 1,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903553",
+     "updated": "2026-11-03T11:48:53.558Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-wichita-state-at-kansas-state",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:30Z",
+   "time_local": "6:30 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "Kansas State",
+    "team": "Kansas State",
+    "score": 61,
+    "espn_id": "2306"
+   },
+   "away": {
+    "name": "Wichita State",
+    "team": null,
+    "score": 41,
+    "espn_id": "2724"
+   },
+   "teams": [
+    "Kansas State"
+   ],
+   "espn_event_id": "401906979",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906979",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401906979",
+    "fac": {
+     "Kansas State": {
+      "box": "https://kstatesports.com/sports/womens-basketball/stats/2026-27/wichita-state/boxscore/19307",
+      "pbp": "https://kstatesports.com/sports/womens-basketball/stats/2026-27/wichita-state/boxscore/19307"
+     }
+    },
+    "official_box": "https://kstatesports.com/sports/womens-basketball/stats/2026-27/wichita-state/boxscore/19307"
+   },
+   "lines": {
+    "tea-cleante": {
+     "player_id": "tea-cleante",
+     "team": "Kansas State",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 18,
+      "pts": 9,
+      "fgm": 3,
+      "fga": 6,
+      "tpm": 1,
+      "tpa": 3,
+      "ftm": 2,
+      "fta": 4,
+      "oreb": 0,
+      "dreb": 1,
+      "reb": 1,
+      "ast": 3,
+      "stl": 0,
+      "blk": 0,
+      "to": 0,
+      "pf": 0
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906979",
+     "updated": "2026-11-03T11:48:53.574Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "2026-11-02-xavier-at-purdue-fort-wayne",
+   "date_et": "2026-11-02",
+   "tipoff_utc": "2026-11-03T00:00Z",
+   "time_local": "7 p.m.",
+   "neutral": false,
+   "home": {
+    "name": "Purdue Fort Wayne",
+    "team": null,
+    "score": 63,
+    "espn_id": "2870"
+   },
+   "away": {
+    "name": "Xavier",
+    "team": "Xavier",
+    "score": 75,
+    "espn_id": "2752"
+   },
+   "teams": [
+    "Xavier"
+   ],
+   "espn_event_id": "401913015",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913015",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401913015",
+    "fac": {
+     "Xavier": {
+      "box": "https://goxavier.com/sports/womens-basketball/stats/2026-27/purdue-fort-wayne/boxscore/13456",
+      "pbp": "https://goxavier.com/sports/womens-basketball/stats/2026-27/purdue-fort-wayne/boxscore/13456"
+     }
+    },
+    "official_box": "https://goxavier.com/sports/womens-basketball/stats/2026-27/purdue-fort-wayne/boxscore/13456"
+   },
+   "lines": {
+    "lucile-jerome": {
+     "player_id": "lucile-jerome",
+     "team": "Xavier",
+     "status": "played",
+     "starter": true,
+     "reason": "",
+     "stats": {
+      "min": 38,
+      "pts": 28,
+      "fgm": 12,
+      "fga": 21,
+      "tpm": 3,
+      "tpa": 10,
+      "ftm": 1,
+      "fta": 2,
+      "oreb": 0,
+      "dreb": 8,
+      "reb": 8,
+      "ast": 1,
+      "stl": 4,
+      "blk": 0,
+      "to": 1,
+      "pf": 2
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913015",
+     "updated": "2026-11-03T11:48:53.598Z"
+    },
+    "stella-mavuanga": {
+     "player_id": "stella-mavuanga",
+     "team": "Xavier",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913015",
+     "updated": "2026-11-03T11:48:53.598Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-03"
+   }
+  }
+ ]
+}

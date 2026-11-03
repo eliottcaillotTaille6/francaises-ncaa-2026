@@ -1,0 +1,28 @@
+{
+  "title": "Les Françaises en NCAA",
+  "season": "2026-27",
+  "update_workflow_url": "",
+  "youtube": {
+    "label": "YouTube",
+    "query": "{home} vs {away} women's basketball {date}",
+    "channels": [
+      {
+        "label": "Walter Gaming",
+        "search_url": "https://www.youtube.com/@WALTERGAMINGYT/search?query="
+      }
+    ]
+  },
+  "team_names": {
+    "Florida Atlantic": "FAU",
+    "Florida International": "FIU",
+    "UT Rio Grande Valley": "UTRGV",
+    "UL Monroe": "Louisiana-Monroe",
+    "Miami (OH)": "Miami (Ohio)"
+  },
+  "highlight": {
+    "points": 20
+  },
+  "excluded_players": [
+    "sarah-strong"
+  ]
+}
