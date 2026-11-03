@@ -64,6 +64,7 @@ function clipLink(g, l) {
     name: state.byId.get(l.player_id)?.name ?? '',
     number: l.jersey ?? '',
     team: g.home.team === l.team ? '1' : '2', // play-by-play ESPN : équipe 1 = à domicile
+    t: Date.now().toString(36), // adresse unique : Chrome ne ressert jamais une ancienne page de l'outil
   });
   return { label: clip.label ?? 'Clipper', url: `${clip.url}?${q}`, title: 'Ouvrir dans l\'outil de clipping (vidéo, play-by-play et joueuse préremplis)' };
 }
