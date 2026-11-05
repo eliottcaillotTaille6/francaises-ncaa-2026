@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:07:18.655Z",
+ "updated": "2026-11-05T15:11:15.756Z",
  "season": "2026-27",
  "games": [
   {
@@ -3268,7 +3268,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918431",
-     "updated": "2026-11-05T07:04:54.750Z"
+     "updated": "2026-11-05T15:08:36.234Z"
     },
     "astrid-mukulumpe": {
      "player_id": "astrid-mukulumpe",
@@ -3297,7 +3297,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918431",
-     "updated": "2026-11-05T07:04:54.750Z"
+     "updated": "2026-11-05T15:08:36.234Z"
     },
     "marie-diame": {
      "player_id": "marie-diame",
@@ -3326,7 +3326,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918431",
-     "updated": "2026-11-05T07:04:54.750Z"
+     "updated": "2026-11-05T15:08:36.234Z"
     }
    },
    "sources": [
@@ -3403,7 +3403,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918553",
-     "updated": "2026-11-05T07:04:57.126Z"
+     "updated": "2026-11-05T15:08:36.258Z"
     }
    },
    "sources": [
@@ -3463,7 +3463,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913004",
-     "updated": "2026-11-05T07:04:59.283Z"
+     "updated": "2026-11-05T15:08:36.277Z"
     }
    },
    "sources": [
