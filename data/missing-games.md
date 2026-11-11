@@ -1,6 +1,6 @@
 # Matchs joués sans stats
 
-Mis à jour le 2026-11-10. Référence : calendrier officiel de chaque fac (ou calendrier ESPN quand le site est illisible). Les matchs d'exhibition sont exclus.
+Mis à jour le 2026-11-11. Référence : calendrier officiel de chaque fac (ou calendrier ESPN quand le site est illisible). Les matchs d'exhibition sont exclus.
 
 _Aucun match manquant._
 
