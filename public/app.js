@@ -197,20 +197,45 @@ function pageHome() {
   return dayView(day, { title: 'Derniers matchs', days });
 }
 
+const playedDays = () => [...new Set(state.games.filter((g) => Object.values(g.lines ?? {}).some((l) => l.status === 'played')).map((g) => g.date_et))].sort();
+
+// Un jour précédent, avec le même affichage en cartes que la page d'accueil.
+function pageDay(day) {
+  const days = playedDays();
+  if (day === days.at(-1)) return pageHome();
+  return dayView(day, { title: `Matchs du ${dateFR(day, { day: 'numeric', month: 'long' })}`, days });
+}
+
 function dayView(day, { title, days }) {
   const games = state.games.filter((g) => g.date_et === day);
   const lines = games.flatMap((g) => Object.values(g.lines ?? {}).map((l) => ({ g, l })));
   const played = lines.filter((x) => x.l.status === 'played' && x.l.stats).sort((a, b) => b.l.stats.pts - a.l.stats.pts || b.l.stats.reb - a.l.stats.reb);
   const others = lines.filter((x) => x.l.status !== 'played');
   const i = days.indexOf(day);
+  const prev = i > 0 ? days[i - 1] : days.filter((d) => d < day).at(-1);
+  const next = i >= 0 ? days[i + 1] : days.find((d) => d > day);
+  // jour suivant : la page d'accueil si c'est le dernier jour joué
+  const dayHref = (d) => (d === days.at(-1) ? '#/' : `#/jour/${d}`);
   return `<h1>${esc(title)}</h1>
     <p class="page-sub">${esc(dateFR(day))} (date US) · ${played.length} joueuse${played.length > 1 ? 's' : ''} sur le terrain</p>
     <div class="day-nav">
-      ${i > 0 ? `<a class="btn ghost" href="#/calendrier/${days[i - 1]}">← ${esc(dateShortFR(days[i - 1]))}</a>` : ''}
+      ${prev ? `<a class="btn ghost" href="${dayHref(prev)}">← ${esc(dateShortFR(prev))}</a>` : ''}
+      ${next ? `<a class="btn ghost" href="${dayHref(next)}">${esc(dateShortFR(next))} →</a>` : ''}
       <a class="btn ghost" href="#/calendrier/${day}">Voir la journée au calendrier</a>
     </div>
     <div class="cards">${played.map(({ g, l }) => cardHTML(g, l)).join('') || '<p class="empty">Aucune Française n\'a joué ce jour-là.</p>'}</div>
     ${others.length ? `<div class="absents"><h2>N'ont pas joué</h2><ul>${others.map(({ g, l }) => `<li><a href="#/joueuse/${esc(l.player_id)}">${esc(state.byId.get(l.player_id)?.name ?? l.player_id)}</a> (${esc(l.team)}, ${perspective(g, l.team).where} ${esc(teamName(perspective(g, l.team).them.name))}) : ${statusText(l)}</li>`).join('')}</ul></div>` : ''}`;
+}
+
+// Retour de la fiche joueuse : vers la page d'où l'on vient (jour, calendrier, tableau), sinon le tableau.
+let backTo = '#/tableau';
+function backLink() {
+  const [, page, arg] = backTo.replace(/^#\/?/, '#/').split('/');
+  const label = page === 'jour' && arg ? `Matchs du ${dateFR(arg, { day: 'numeric', month: 'long' })}`
+    : page === 'calendrier' ? 'Calendrier'
+    : page === 'tableau' ? 'Tableau général'
+    : 'Derniers matchs';
+  return `<a href="${esc(backTo || '#/')}">← ${esc(label)}</a>`;
 }
 
 function pagePlayer(id) {
@@ -225,7 +250,7 @@ function pagePlayer(id) {
     ['Ville d\'origine', p.hometown], ['Parcours', p.background], ['Note', p.note],
   ].filter(([, v]) => v);
   const av = (k, v) => `<div class="avg"><div class="v">${v}</div><div class="k">${k}</div></div>`;
-  return `<p><a href="#/tableau">← Tableau général</a></p>
+  return `<p>${backLink()}</p>
     <h1>${esc(p.name)}</h1>
     <dl class="bio">${bio.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
     ${p.espn_athlete_id ? `<p class="links"><a href="https://www.espn.com/womens-college-basketball/player/_/id/${esc(p.espn_athlete_id)}" target="_blank" rel="noopener">Fiche ESPN</a></p>` : ''}
@@ -439,6 +464,7 @@ function render() {
   if (page === 'joueuse') { html = pagePlayer(decodeURIComponent(arg ?? '')); nav = ''; }
   else if (page === 'tableau') { html = pageTable(); nav = 'tableau'; }
   else if (page === 'calendrier') { html = pageCalendar(arg); nav = 'calendrier'; }
+  else if (page === 'jour' && arg) html = pageDay(arg);
   else html = pageHome();
   $main.innerHTML = html;
   document.querySelectorAll('[data-nav]').forEach((a) => (a.dataset.nav === nav ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
@@ -447,9 +473,16 @@ function render() {
 }
 
 let lastHash = location.hash;
+const scrollOf = {};   // position de lecture de chaque page, retrouvée au retour d'une fiche joueuse
 window.addEventListener('hashchange', () => {
+  const page = (h) => h.replace(/^#\/?/, '#/').split('/')[1] || '';
+  const norm = (h) => (h && h !== '#' ? h : '#/');   // accueil : « », « # » ou « #/ »
+  const from = norm(lastHash), to = norm(location.hash);
+  scrollOf[from] = window.scrollY;
+  if (page(to) === 'joueuse' && page(from) !== 'joueuse') backTo = from;
   render();
-  if (location.hash.split('/')[1] !== lastHash.split('/')[1]) window.scrollTo(0, 0);
+  if (page(from) === 'joueuse' && to === backTo && scrollOf[to] != null) window.scrollTo(0, scrollOf[to]);
+  else if (to !== from) window.scrollTo(0, 0);
   lastHash = location.hash;
 });
 
