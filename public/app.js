@@ -78,6 +78,17 @@ function clipLink(g, l) {
     : { label: `${clip.label ?? 'Clipper'} (résumé)`, url: `${clip.url}?${q}`, title: `Résumé « ${g.highlights.title} » (${g.highlights.channel}) : seuls les paniers montrés dans le résumé seront retrouvés` };
 }
 
+// Double-double avec les passes (10 ou plus) : second bouton « Clipper passes », même lien avec
+// mode=passes (l'outil monte alors les paniers des coéquipières sur les passes de la joueuse).
+function clipLinks(g, l) {
+  const c = clipLink(g, l);
+  if (!c) return [];
+  if ((l.stats?.ast ?? 0) < 10) return [c];
+  const u = new URL(c.url);
+  u.searchParams.set('mode', 'passes');
+  return [c, { label: c.label.replace(/^(\S+)/, '$1 passes'), url: u.toString(), title: `${l.stats.ast} passes décisives : montage des paniers sur ses passes` }];
+}
+
 function gameLinks(g, team, line) {
   // Une seule source de liens par match : ESPN s'il a le match, sinon le site de la fac.
   const fac = g.links?.fac?.[team] ?? Object.values(g.links?.fac ?? {})[0];
@@ -91,8 +102,8 @@ function gameLinks(g, team, line) {
     if (src.pbp) out.push({ label: 'Play-by-play', url: src.pbp, title: `Play-by-play (${src.name})` });
     if (src.box) out.push({ label: 'Box score', url: src.box, title: `Box score (${src.name})` });
   }
-  const clip = clipLink(g, line);
-  return [...out, ...youtubeLinks(g), ...(clip ? [clip] : [])];
+  const clips = clipLinks(g, line);
+  return [...out, ...youtubeLinks(g), ...clips];
 }
 const linksHTML = (g, team, line) =>
   `<div class="links">${gameLinks(g, team, line).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener"${l.title ? ` title="${esc(l.title)}"` : ''}>${esc(l.label)}</a>`).join('')}</div>`;
@@ -421,7 +432,7 @@ function pageCalendar(day) {
         return `<li><a href="#/joueuse/${esc(l.player_id)}"><strong>${esc(state.byId.get(l.player_id)?.name ?? l.player_id)}</strong></a>
           <span class="muted">${esc(l.team)}</span>
           ${s ? `<span${big ? ' style="color:var(--t6-green);font-weight:700"' : ''}>${s.pts} pts, ${s.reb} reb, ${s.ast} pd · ${Math.round(s.min)} min · ${s.fgm}-${s.fga} tirs</span>${tags.map((t) => `<span class="badge accent">${esc(t)}</span>`).join('')}` : `<span class="muted">${statusText(l)}</span>`}
-          ${srcBadge(l)}${(() => { const c = clipLink(g, l); return c ? ` <a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.title)}">${esc(c.label)}</a>` : ''; })()}</li>`;
+          ${srcBadge(l)}${clipLinks(g, l).map((c) => ` <a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.title)}">${esc(c.label)}</a>`).join('')}</li>`;
       }).join('')}</ul>
       ${linksHTML(g, team)}
     </section>`;
