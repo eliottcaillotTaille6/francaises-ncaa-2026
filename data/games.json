@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T07:27:08.375Z",
+ "updated": "2026-11-16T16:47:14.712Z",
  "season": "2026-27",
  "games": [
   {
@@ -13287,7 +13287,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915595",
-     "updated": "2026-11-16T07:27:07.903Z"
+     "updated": "2026-11-16T16:43:30.688Z"
     }
    },
    "sources": [
@@ -13367,7 +13367,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913865",
-     "updated": "2026-11-16T07:27:07.951Z"
+     "updated": "2026-11-16T16:43:30.727Z"
     },
     "mariss-miekountima": {
      "player_id": "mariss-miekountima",
@@ -13396,7 +13396,7 @@
      },
      "source": "fac",
      "source_url": "https://fiusports.com/sports/womens-basketball/stats/2026-27/usf/boxscore/15614",
-     "updated": "2026-11-16T07:27:07.951Z"
+     "updated": "2026-11-16T16:43:30.727Z"
     }
    },
    "sources": [
@@ -13459,7 +13459,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918739",
-     "updated": "2026-11-16T07:27:07.791Z"
+     "updated": "2026-11-16T16:43:30.599Z"
     },
     "aziliz-le-guen": {
      "player_id": "aziliz-le-guen",
@@ -13471,7 +13471,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918739",
-     "updated": "2026-11-16T07:27:07.791Z"
+     "updated": "2026-11-16T16:43:30.599Z"
     }
    },
    "sources": [
@@ -13544,7 +13544,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916018",
-     "updated": "2026-11-16T07:27:07.925Z"
+     "updated": "2026-11-16T16:43:30.706Z"
     }
    },
    "sources": [
@@ -13624,7 +13624,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913858",
-     "updated": "2026-11-16T07:27:07.817Z"
+     "updated": "2026-11-16T16:43:30.621Z"
     },
     "kathy-emma-otto": {
      "player_id": "kathy-emma-otto",
@@ -13653,7 +13653,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913858",
-     "updated": "2026-11-16T07:27:07.817Z"
+     "updated": "2026-11-16T16:43:30.621Z"
     }
    },
    "sources": [
@@ -13665,8 +13665,11 @@
     "checked": "2026-11-16"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-16"
+    "url": "https://www.youtube.com/watch?v=2Uk95emYwbA",
+    "title": "Michigan State vs Harvard Women's Basketball Highlights I Impact 89 FM (WDBM)",
+    "channel": "Blake Sekula",
+    "duration_s": 232,
+    "official": false
    }
   },
   {
@@ -13730,7 +13733,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401934276",
-     "updated": "2026-11-16T07:27:07.912Z"
+     "updated": "2026-11-16T16:43:30.696Z"
     }
    },
    "sources": [
@@ -13742,8 +13745,11 @@
     "checked": "2026-11-16"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-16"
+    "url": "https://www.youtube.com/watch?v=ariXd91mk0c",
+    "title": "Hound Highlights | Women's Basketball 75, Morgan State 66",
+    "channel": "Loyola Greyhounds",
+    "duration_s": 146,
+    "official": true
    }
   },
   {
@@ -13807,7 +13813,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915964",
-     "updated": "2026-11-16T07:27:07.847Z"
+     "updated": "2026-11-16T16:43:30.644Z"
     }
    },
    "sources": [
@@ -13887,7 +13893,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401929096",
-     "updated": "2026-11-16T07:27:07.832Z"
+     "updated": "2026-11-16T16:43:30.632Z"
     }
    },
    "sources": [
@@ -13964,7 +13970,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915326",
-     "updated": "2026-11-16T07:27:07.972Z"
+     "updated": "2026-11-16T16:43:30.745Z"
     }
    },
    "sources": [
@@ -14047,7 +14053,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917706",
-     "updated": "2026-11-16T07:27:07.944Z"
+     "updated": "2026-11-16T16:43:30.722Z"
     }
    },
    "sources": [
@@ -14124,7 +14130,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918943",
-     "updated": "2026-11-16T07:27:07.884Z"
+     "updated": "2026-11-16T16:43:30.675Z"
     }
    },
    "sources": [
@@ -14187,7 +14193,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906079",
-     "updated": "2026-11-16T07:27:07.866Z"
+     "updated": "2026-11-16T16:43:30.658Z"
     }
    },
    "sources": [
@@ -14253,7 +14259,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918850",
-     "updated": "2026-11-16T07:27:07.797Z"
+     "updated": "2026-11-16T16:43:30.604Z"
     },
     "justine-loubens": {
      "player_id": "justine-loubens",
@@ -14265,7 +14271,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918850",
-     "updated": "2026-11-16T07:27:07.797Z"
+     "updated": "2026-11-16T16:43:30.604Z"
     }
    },
    "sources": [
