@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:20:24.438Z",
+ "updated": "2026-11-17T12:25:12.119Z",
  "season": "2026-27",
  "games": [
   {
@@ -13222,8 +13222,11 @@
     "checked": "2026-11-17"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-17"
+    "url": "https://www.youtube.com/watch?v=O9EbERCh5pg",
+    "title": "Tarleton State  vs  Texas | Full Game Highlights | NCAA Women's Basketball 2026",
+    "channel": "شاف الجزائرية 🇩🇿",
+    "duration_s": 1225,
+    "official": false
    }
   },
   {
@@ -14353,7 +14356,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918648",
-     "updated": "2026-11-17T12:20:24.093Z"
+     "updated": "2026-11-17T12:21:32.425Z"
     }
    },
    "sources": [
@@ -14430,7 +14433,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913018",
-     "updated": "2026-11-17T12:20:24.011Z"
+     "updated": "2026-11-17T12:21:32.301Z"
     },
     "stella-mavuanga": {
      "player_id": "stella-mavuanga",
@@ -14459,7 +14462,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913018",
-     "updated": "2026-11-17T12:20:24.011Z"
+     "updated": "2026-11-17T12:21:32.302Z"
     }
    },
    "sources": [
@@ -14471,8 +14474,11 @@
     "checked": "2026-11-17"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-17"
+    "url": "https://www.youtube.com/watch?v=Qu_sHXbJpD4",
+    "title": "HIGHLIGHTS | Women's Basketball vs Cleveland State",
+    "channel": "Xavier Musketeers",
+    "duration_s": 313,
+    "official": true
    }
   },
   {
@@ -14519,7 +14525,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401930241",
-     "updated": "2026-11-17T12:20:24.072Z"
+     "updated": "2026-11-17T12:21:32.395Z"
     }
    },
    "sources": [
@@ -14575,7 +14581,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927516",
-     "updated": "2026-11-17T12:20:24.087Z"
+     "updated": "2026-11-17T12:21:32.415Z"
     }
    },
    "sources": [
@@ -14648,7 +14654,7 @@
      },
      "source": "fac",
      "source_url": "https://nmstatesports.com/sports/womens-basketball/stats/2026-27/kansas-city/boxscore/19541",
-     "updated": "2026-11-17T12:20:24.029Z"
+     "updated": "2026-11-17T12:21:32.328Z"
     },
     "aissatou-keita": {
      "player_id": "aissatou-keita",
@@ -14677,7 +14683,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.029Z"
+     "updated": "2026-11-17T12:21:32.329Z"
     },
     "aimee-michel": {
      "player_id": "aimee-michel",
@@ -14706,7 +14712,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.029Z"
+     "updated": "2026-11-17T12:21:32.329Z"
     },
     "eva-agba": {
      "player_id": "eva-agba",
@@ -14735,7 +14741,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.029Z"
+     "updated": "2026-11-17T12:21:32.329Z"
     },
     "imane-loubibet": {
      "player_id": "imane-loubibet",
@@ -14764,7 +14770,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.029Z"
+     "updated": "2026-11-17T12:21:32.329Z"
     },
     "lilyana-fontcha": {
      "player_id": "lilyana-fontcha",
@@ -14793,7 +14799,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.029Z"
+     "updated": "2026-11-17T12:21:32.329Z"
     },
     "talia-kavoka": {
      "player_id": "talia-kavoka",
@@ -14805,7 +14811,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.030Z"
+     "updated": "2026-11-17T12:21:32.329Z"
     },
     "justine-mouyokolo": {
      "player_id": "justine-mouyokolo",
@@ -14817,7 +14823,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.030Z"
+     "updated": "2026-11-17T12:21:32.330Z"
     },
     "eva-hamlil": {
      "player_id": "eva-hamlil",
@@ -14846,7 +14852,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.030Z"
+     "updated": "2026-11-17T12:21:32.330Z"
     },
     "julia-saillard": {
      "player_id": "julia-saillard",
@@ -14875,7 +14881,7 @@
      },
      "source": "fac",
      "source_url": "https://nmstatesports.com/sports/womens-basketball/stats/2026-27/kansas-city/boxscore/19541",
-     "updated": "2026-11-17T12:20:24.030Z"
+     "updated": "2026-11-17T12:21:32.330Z"
     },
     "sena-sert": {
      "player_id": "sena-sert",
@@ -14904,7 +14910,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.030Z"
+     "updated": "2026-11-17T12:21:32.330Z"
     },
     "stacy-chovino": {
      "player_id": "stacy-chovino",
@@ -14933,7 +14939,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918818",
-     "updated": "2026-11-17T12:20:24.030Z"
+     "updated": "2026-11-17T12:21:32.330Z"
     }
    },
    "sources": [
@@ -15010,7 +15016,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913727",
-     "updated": "2026-11-17T12:20:24.015Z"
+     "updated": "2026-11-17T12:21:32.308Z"
     },
     "jess-mine-zodia": {
      "player_id": "jess-mine-zodia",
@@ -15039,7 +15045,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913727",
-     "updated": "2026-11-17T12:20:24.015Z"
+     "updated": "2026-11-17T12:21:32.308Z"
     }
    },
    "sources": [
@@ -15120,7 +15126,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927069",
-     "updated": "2026-11-17T12:20:23.998Z"
+     "updated": "2026-11-17T12:21:32.285Z"
     }
    },
    "sources": [
@@ -15200,7 +15206,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927018",
-     "updated": "2026-11-17T12:20:24.049Z"
+     "updated": "2026-11-17T12:21:32.361Z"
     }
    },
    "sources": [
@@ -15277,7 +15283,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915766",
-     "updated": "2026-11-17T12:20:24.022Z"
+     "updated": "2026-11-17T12:21:32.318Z"
     },
     "sira-diarra": {
      "player_id": "sira-diarra",
@@ -15306,7 +15312,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915766",
-     "updated": "2026-11-17T12:20:24.022Z"
+     "updated": "2026-11-17T12:21:32.318Z"
     }
    },
    "sources": [
@@ -15367,7 +15373,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401928008",
-     "updated": "2026-11-17T12:20:24.057Z"
+     "updated": "2026-11-17T12:21:32.376Z"
     }
    },
    "sources": [
@@ -15440,7 +15446,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927036",
-     "updated": "2026-11-17T12:20:24.036Z"
+     "updated": "2026-11-17T12:21:32.341Z"
     }
    },
    "sources": [
