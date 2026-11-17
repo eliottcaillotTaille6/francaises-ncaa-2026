@@ -75,7 +75,7 @@ export function matchesGame(title, game, names) {
 export async function findOnChannel(channel, game, names) {
   const query = `${names.home[0]} ${names.away[0]}`;
   const html = await fetchText(channel.search_url + encodeURIComponent(query), {
-    ttl: 6 * 3600,
+    ttl: 1800, // cache court : une mise à jour relancée plus tard refait la recherche
     headers: { 'Accept-Language': 'en-US,en;q=0.8' },
   });
   const hit = videos(html).find((v) => matchesGame(v.title, game, names));

@@ -111,7 +111,9 @@ export async function findHighlights(game, names, extra, today) {
   const away = await aliasesOf(game.away, extra.away);
   const query = `${names.home[0]} vs ${names.away[0]} women's basketball highlights`;
   const html = await fetchText(`https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`, {
-    ttl: 6 * 3600,
+    // cache court : un résumé tout juste publié peut manquer dans la recherche du matin ; une mise à jour
+    // relancée plus tard doit refaire la recherche, pas reprendre l'ancienne (le cache passe d'une Action à l'autre)
+    ttl: 1800,
     headers: { 'Accept-Language': 'en-US,en;q=0.8' },
   });
   const hits = results(html).filter((v) => isHighlightsOf(v, game, home, away, today));
