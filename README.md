@@ -147,7 +147,7 @@ passes, interceptions, contres). Seuils dans `config/site.json` → `highlight` 
 
 2. Dans le dépôt, ouvrir **Settings → Pages → Build and deployment → Source** et choisir **GitHub Actions**.
 3. Dans **Settings → Actions → General → Workflow permissions**, cocher **Read and write permissions**, pour que l'Action puisse commiter les données.
-4. L'Action `.github/workflows/update.yml` tourne alors tous les jours à 8 h, heure de Paris (deux horaires UTC sont programmés pour suivre le passage à l'heure d'été, un seul s'exécute). Elle récupère les matchs, commite `data/`, puis redéploie le site. Elle redéploie aussi le site à chaque push sur `public/`, `config/`, `players.json` ou `sources.json`.
+4. L'Action `.github/workflows/update.yml` est lancée tous les jours à 8 h et 11 h, heure de Paris, par le Mac de l'éditeur (agent `com.clipspaniers.prefetch` de l'outil de clipping) ; 11 h rattrape les résumés publiés dans la nuit que la recherche YouTube ne montrait pas encore à 8 h. Les horaires programmés sur GitHub (8 h) restent en secours. Elle récupère les matchs, commite `data/`, puis redéploie le site. Elle redéploie aussi le site à chaque push sur `public/`, `config/`, `players.json` ou `sources.json`.
 5. **Rattrapage depuis GitHub** : onglet **Actions → Mise à jour quotidienne → Run workflow**, puis remplir les champs `from` et `to`.
 
 ## Actualiser le site à la demande
