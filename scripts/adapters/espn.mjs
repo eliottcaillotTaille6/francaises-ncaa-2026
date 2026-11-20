@@ -36,6 +36,8 @@ export async function teamSchedule(teamId) {
         home_side: us.homeAway === 'home' ? 'us' : 'opp',
         completed: !!c.status?.type?.completed,
         status: c.status?.type?.name,
+        tv: [...new Set((c.broadcasts ?? []).map((b) => b.media?.shortName).filter(Boolean))],
+        opp_logo: them.team.logos?.[0]?.href ?? null,
       });
     }
   }

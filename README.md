@@ -17,6 +17,12 @@ ESPN + sites des facs┘          │
 - **Un match = une fac + une date US Eastern + un adversaire.** Relancer le script ne crée jamais de doublon, et une stat corrigée par ESPN remplace l'ancienne.
 - Les matchs d'exhibition sont ignorés.
 - Chaque matin, le script reprend aussi automatiquement les matchs terminés des 10 derniers jours qui n'ont toujours pas de stats.
+- **Matchs à venir** (`data/upcoming.json`, page « À venir ») : à chaque mise à jour, les matchs non joués des 3 jours
+  qui viennent, d'après les calendriers ESPN des facs suivies (heure, adversaire, domicile/extérieur, diffuseur TV),
+  avec les Françaises de chaque équipe. La page montre la nuit qui vient et la suivante, à l'heure de Paris : une
+  « nuit » va de midi à midi (un match à 1 h du matin est rangé avec la soirée de la veille). Un adversaire n'est
+  reconnu comme fac suivie que par son identifiant ESPN quand ESPN le donne (« New Mexico » n'est pas
+  « New Mexico State »).
 
 ## Installation locale
 

@@ -4,7 +4,7 @@
 const $main = document.getElementById('main');
 const $tip = document.getElementById('tooltip');
 
-const state = { players: [], byId: new Map(), games: [], sources: {}, config: {}, updated: null };
+const state = { players: [], byId: new Map(), games: [], sources: {}, config: {}, updated: null, upcoming: [] };
 
 // ---------- utilitaires ----------
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -244,6 +244,7 @@ function backLink() {
   const [, page, arg] = backTo.replace(/^#\/?/, '#/').split('/');
   const label = page === 'jour' && arg ? `Matchs du ${dateFR(arg, { day: 'numeric', month: 'long' })}`
     : page === 'calendrier' ? 'Calendrier'
+    : page === 'a-venir' ? 'Matchs à venir'
     : page === 'tableau' ? 'Tableau général'
     : 'Derniers matchs';
   return `<a href="${esc(backTo || '#/')}">← ${esc(label)}</a>`;
@@ -447,6 +448,42 @@ function pageCalendar(day) {
     ${games.map(block).join('') || '<p class="empty">Aucun match de Française enregistré ce jour-là.</p>'}`;
 }
 
+// ---------- matchs à venir ----------
+// La nuit qui vient et la suivante, à l'heure de Paris (data/upcoming.json, calendriers ESPN relus à chaque mise à
+// jour). Une « nuit » va de midi à midi : un match à 1 h du matin est rangé avec la soirée de la veille, un match
+// américain de midi (18 h à Paris) avec la nuit qui suit.
+const parisYmd = (ms) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms));
+const nightOf = (utc) => parisYmd(Date.parse(utc) - 12 * 3600e3);
+const shortDay = (ymd) => noon(ymd).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', timeZone: 'UTC' });
+
+function pageUpcoming() {
+  const now = Date.now();
+  const tonight = parisYmd(now - 6 * 3600e3);   // avant 6 h du matin, on est encore dans la nuit de la veille
+  const nights = [tonight, nightOf(new Date(noon(tonight).getTime() + 36 * 3600e3).toISOString())];
+  const block = (g) => {
+    const started = Date.parse(g.tipoff_utc) <= now;
+    const when = new Date(g.tipoff_utc).toLocaleDateString('fr-FR', { weekday: 'short', timeZone: 'Europe/Paris' });
+    const players = g.players.map((p) => `<li><a href="#/joueuse/${esc(p.id)}"><strong>${esc(state.byId.get(p.id)?.name ?? p.name)}</strong></a> <span class="muted">${esc(p.team)}</span></li>`).join('');
+    return `<section class="game-block">
+      <h3><span class="kick">${esc(timeParis(g.tipoff_utc))}</span> ${esc(teamName(g.away.name))} ${g.neutral ? 'vs' : '@'} ${esc(teamName(g.home.name))}</h3>
+      <div class="game-meta">${esc(when)} · heure de Paris${g.neutral ? ' · terrain neutre' : ''}${started ? ' · <strong>commencé</strong>' : ''}</div>
+      <div class="badges">${g.tv.map((t) => `<span class="badge">${esc(t)}</span>`).join('') || '<span class="badge">diffusion non annoncée</span>'}</div>
+      <ul>${players}</ul>
+      <div class="links"><a href="${esc(g.espn_url)}" target="_blank" rel="noopener">Fiche ESPN</a></div>
+    </section>`;
+  };
+  const section = (d, i) => {
+    const games = state.upcoming.filter((g) => nightOf(g.tipoff_utc) === d && Date.parse(g.tipoff_utc) > now - 3 * 3600e3);
+    const n = games.reduce((a, g) => a + g.players.length, 0);
+    return `<h2>${i === 0 ? 'Cette nuit' : 'La nuit suivante'} <span class="muted">· du ${esc(shortDay(d))} au ${esc(shortDay(new Date(noon(d).getTime() + 86400e3).toISOString().slice(0, 10)))} ${esc(noon(d).toLocaleDateString('fr-FR', { month: 'long', timeZone: 'UTC' }))}</span></h2>
+      <p class="page-sub">${games.length} match${games.length > 1 ? 's' : ''} · ${n} Française${n > 1 ? 's' : ''}</p>
+      ${games.map(block).join('') || '<p class="empty">Aucun match de Française.</p>'}`;
+  };
+  return `<h1>Matchs à venir</h1>
+    <p class="page-sub">Heures de Paris · calendriers ESPN relus à chaque mise à jour (8 h et 11 h)</p>
+    ${nights.map(section).join('')}`;
+}
+
 // ---------- infobulle du graphique ----------
 function showTip(e) {
   const t = e.target.closest?.('[data-tip]');
@@ -475,6 +512,7 @@ function render() {
   if (page === 'joueuse') { html = pagePlayer(decodeURIComponent(arg ?? '')); nav = ''; }
   else if (page === 'tableau') { html = pageTable(); nav = 'tableau'; }
   else if (page === 'calendrier') { html = pageCalendar(arg); nav = 'calendrier'; }
+  else if (page === 'a-venir') { html = pageUpcoming(); nav = 'a-venir'; }
   else if (page === 'jour' && arg) html = pageDay(arg);
   else html = pageHome();
   $main.innerHTML = html;
@@ -512,6 +550,7 @@ async function load() {
     state.sources = sources.teams ?? {};
     state.config = config;
     state.updated = games.updated ?? null;
+    state.upcoming = (await get('data/upcoming.json').catch(() => ({ games: [] }))).games ?? [];
     if (games.updated) {
       const u = new Date(games.updated);
       document.getElementById('updated').textContent = `Mis à jour le ${updatedText(u)}`;

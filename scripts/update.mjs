@@ -48,6 +48,8 @@ const displayName = (team) => sources[team]?.youtube_name ?? team;
 // Nom d'adversaire → fac suivie (quand deux facs de la liste s'affrontent).
 function trackedTeamFor(name, espnId) {
   if (espnId && byEspnTeam.has(espnId)) return byEspnTeam.get(espnId);
+  // identifiant ESPN connu et absent de la liste : pas une fac suivie (« New Mexico » n'est pas « New Mexico State »)
+  if (espnId) return null;
   const best = teamNames.map((t) => [t, teamSimilarity(t, name)]).sort((a, b) => b[1] - a[1])[0];
   return best && best[1] >= 0.9 ? best[0] : null;
 }
@@ -353,6 +355,44 @@ let hlFound = 0;
     }
   }
 }
+
+// ---------- matchs à venir ----------
+// Matchs non joués des facs suivies dans les 3 jours qui viennent (calendriers ESPN). Le site en tire, à l'heure
+// de Paris, la nuit qui vient et la suivante. Un match entre deux facs suivies n'apparaît qu'une fois.
+const upcoming = new Map();
+{
+  const now = Date.now();
+  for (const team of teamNames) {
+    for (const e of calendars[team]?.espn ?? []) {
+      const t = Date.parse(e.tipoff_utc);
+      if (e.completed || !(t > now - 4 * 3600e3 && t < now + 3 * 86400e3)) continue;
+      const oppTracked = trackedTeamFor(e.opp.name, e.opp.espn_id);
+      const g = upcoming.get(e.espn_event_id) ?? {
+        espn_event_id: e.espn_event_id,
+        tipoff_utc: e.tipoff_utc,
+        neutral: e.neutral,
+        home: null,
+        away: null,
+        tv: e.tv ?? [],
+        teams: [],
+        players: [],
+        espn_url: `https://www.espn.com/womens-college-basketball/game/_/gameId/${e.espn_event_id}`,
+      };
+      const us = { name: displayName(team), team, espn_id: e.us.espn_id };
+      const them = { name: oppTracked ? displayName(oppTracked) : e.opp.name, team: oppTracked, espn_id: e.opp.espn_id };
+      if (!g.home) [g.home, g.away] = e.home_side === 'us' ? [us, them] : [them, us];
+      if (!g.teams.includes(team)) {
+        g.teams.push(team);
+        g.players.push(...players.filter((p) => p.team === team).map((p) => ({ id: p.id, name: p.name, team })));
+      }
+      upcoming.set(e.espn_event_id, g);
+    }
+  }
+}
+fs.writeFileSync(OUT === 'data/games.json' ? 'data/upcoming.json' : OUT.replace(/\.json$/, '') + '.upcoming.json', JSON.stringify({
+  updated: new Date().toISOString(),
+  games: [...upcoming.values()].sort((a, b) => a.tipoff_utc.localeCompare(b.tipoff_utc)),
+}, null, 1) + '\n');
 
 // ---------- écriture ----------
 const all = [...games.values()].sort((a, b) => a.date_et.localeCompare(b.date_et) || a.id.localeCompare(b.id));

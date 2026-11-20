@@ -16454,7 +16454,7 @@
    }
   },
   {
-   "id": "2026-11-17-washington-state-at-washington-state",
+   "id": "2026-11-17-washington-at-washington-state",
    "date_et": "2026-11-17",
    "tipoff_utc": "2026-11-18T03:30Z",
    "time_local": "",
@@ -16466,13 +16466,12 @@
     "espn_id": "265"
    },
    "away": {
-    "name": "Washington State",
-    "team": "Washington State",
+    "name": "Washington",
+    "team": null,
     "score": 82,
     "espn_id": "264"
    },
    "teams": [
-    "Washington State",
     "Washington State"
    ],
    "espn_event_id": "401903557",

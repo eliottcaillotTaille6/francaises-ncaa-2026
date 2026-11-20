@@ -6,7 +6,7 @@ fs.rmSync(OUT, { recursive: true, force: true });
 fs.cpSync('public', OUT, { recursive: true });
 fs.mkdirSync(`${OUT}/data`, { recursive: true });
 fs.mkdirSync(`${OUT}/config`, { recursive: true });
-for (const f of ['games.json', 'players.json', 'sources.json']) fs.copyFileSync(`data/${f}`, `${OUT}/data/${f}`);
+for (const f of ['games.json', 'players.json', 'sources.json', 'upcoming.json']) if (fs.existsSync(`data/${f}`)) fs.copyFileSync(`data/${f}`, `${OUT}/data/${f}`);
 fs.copyFileSync('config/site.json', `${OUT}/config/site.json`);
 fs.writeFileSync(`${OUT}/.nojekyll`, '');
 
