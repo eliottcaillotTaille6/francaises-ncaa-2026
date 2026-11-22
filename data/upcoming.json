@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:20:39.904Z",
+ "updated": "2026-11-22T15:05:47.643Z",
  "games": [
   {
    "espn_event_id": "401913867",
@@ -899,6 +899,35 @@
     }
    ],
    "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401911759"
+  },
+  {
+   "espn_event_id": "401921393",
+   "tipoff_utc": "2026-11-25T15:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Syracuse",
+    "team": "Syracuse",
+    "espn_id": "183"
+   },
+   "away": {
+    "name": "Southern",
+    "team": null,
+    "espn_id": "2582"
+   },
+   "tv": [
+    "FloSports"
+   ],
+   "teams": [
+    "Syracuse"
+   ],
+   "players": [
+    {
+     "id": "celaine-ricco",
+     "name": "Célaine Ricco",
+     "team": "Syracuse"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401921393"
   }
  ]
 }
