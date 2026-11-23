@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:06:17.817Z",
+ "updated": "2026-11-23T19:01:18.282Z",
  "season": "2026-27",
  "games": [
   {
@@ -20736,7 +20736,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917717",
-     "updated": "2026-11-23T10:02:07.504Z"
+     "updated": "2026-11-23T18:57:00.043Z"
     }
    },
    "sources": [
@@ -20813,7 +20813,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918911",
-     "updated": "2026-11-23T10:02:07.254Z"
+     "updated": "2026-11-23T18:56:57.079Z"
     }
    },
    "sources": [
@@ -20893,7 +20893,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926016",
-     "updated": "2026-11-23T10:02:07.455Z"
+     "updated": "2026-11-23T18:56:57.891Z"
     }
    },
    "sources": [
@@ -20970,7 +20970,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913718",
-     "updated": "2026-11-23T10:02:07.517Z"
+     "updated": "2026-11-23T18:57:00.068Z"
     }
    },
    "sources": [
@@ -21050,7 +21050,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926985",
-     "updated": "2026-11-23T10:02:07.217Z"
+     "updated": "2026-11-23T18:56:57.025Z"
     },
     "aziliz-le-guen": {
      "player_id": "aziliz-le-guen",
@@ -21079,7 +21079,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926985",
-     "updated": "2026-11-23T10:02:07.217Z"
+     "updated": "2026-11-23T18:56:57.025Z"
     }
    },
    "sources": [
@@ -21156,7 +21156,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918858",
-     "updated": "2026-11-23T10:02:07.242Z"
+     "updated": "2026-11-23T18:56:57.063Z"
     }
    },
    "sources": [
@@ -21236,7 +21236,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906985",
-     "updated": "2026-11-23T10:02:07.229Z"
+     "updated": "2026-11-23T18:56:57.045Z"
     }
    },
    "sources": [
@@ -21313,7 +21313,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913867",
-     "updated": "2026-11-23T10:02:07.441Z"
+     "updated": "2026-11-23T18:56:57.866Z"
     }
    },
    "sources": [
@@ -21393,7 +21393,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401912957",
-     "updated": "2026-11-23T10:02:07.485Z"
+     "updated": "2026-11-23T18:56:57.933Z"
     }
    },
    "sources": [
@@ -21476,7 +21476,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923333",
-     "updated": "2026-11-23T10:02:07.470Z"
+     "updated": "2026-11-23T18:56:57.911Z"
     }
    },
    "sources": [
@@ -21558,7 +21558,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927019",
-     "updated": "2026-11-23T10:02:07.449Z"
+     "updated": "2026-11-23T18:56:57.880Z"
     },
     "celestine-segretain": {
      "player_id": "celestine-segretain",
@@ -21570,7 +21570,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927019",
-     "updated": "2026-11-23T10:02:07.492Z"
+     "updated": "2026-11-23T18:56:57.944Z"
     }
    },
    "sources": [
@@ -21582,6 +21582,143 @@
     "checked": "2026-11-23"
    },
    "highlights": {
+    "url": null,
+    "checked": "2026-11-23"
+   }
+  },
+  {
+   "id": "2026-11-23-alcorn-state-at-michigan-state",
+   "date_et": "2026-11-23",
+   "tipoff_utc": "2026-11-23T17:00Z",
+   "time_local": "12 PM",
+   "neutral": true,
+   "home": {
+    "name": "Michigan State",
+    "team": "Michigan State",
+    "score": 94,
+    "espn_id": "127"
+   },
+   "away": {
+    "name": "Alcorn State",
+    "team": null,
+    "score": 44,
+    "espn_id": "2016"
+   },
+   "teams": [
+    "Michigan State"
+   ],
+   "espn_event_id": "401916024",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401916024"
+   },
+   "lines": {
+    "emma-broliron": {
+     "player_id": "emma-broliron",
+     "team": "Michigan State",
+     "jersey": "8",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 14,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 6,
+      "tpm": 0,
+      "tpa": 3,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 3,
+      "reb": 3,
+      "ast": 1,
+      "stl": 0,
+      "blk": 0,
+      "to": 2,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
+     "updated": "2026-11-23T18:56:57.840Z"
+    },
+    "kathy-emma-otto": {
+     "player_id": "kathy-emma-otto",
+     "team": "Michigan State",
+     "jersey": "22",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
+     "updated": "2026-11-23T18:56:57.840Z"
+    }
+   },
+   "sources": [
+    "espn"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-23"
+   },
+   "highlights": {
+    "url": null,
+    "checked": "2026-11-23"
+   }
+  },
+  {
+   "id": "2026-11-23-oregon-state-at-middle-tennessee",
+   "date_et": "2026-11-23",
+   "tipoff_utc": "2026-11-23T17:00Z",
+   "time_local": "11 a.m.",
+   "neutral": true,
+   "home": {
+    "name": "Middle Tennessee",
+    "team": "Middle Tennessee",
+    "score": 63,
+    "espn_id": "2393"
+   },
+   "away": {
+    "name": "Oregon State",
+    "team": null,
+    "score": 54,
+    "espn_id": "204"
+   },
+   "teams": [
+    "Middle Tennessee"
+   ],
+   "espn_event_id": "401923672",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923672",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401923672",
+    "fac": {
+     "Middle Tennessee": {
+      "box": "https://goblueraiders.com/sports/womens-basketball/stats/2026-27/oregon-state/boxscore/15947",
+      "pbp": "https://goblueraiders.com/sports/womens-basketball/stats/2026-27/oregon-state/boxscore/15947"
+     }
+    },
+    "official_box": "https://goblueraiders.com/sports/womens-basketball/stats/2026-27/oregon-state/boxscore/15947"
+   },
+   "lines": {
+    "nora-ahamadi": {
+     "player_id": "nora-ahamadi",
+     "team": "Middle Tennessee",
+     "jersey": "29",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923672",
+     "updated": "2026-11-23T18:57:00.024Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
     "url": null,
     "checked": "2026-11-23"
    }

@@ -1,65 +1,6 @@
 {
- "updated": "2026-11-23T10:06:17.813Z",
+ "updated": "2026-11-23T19:01:18.281Z",
  "games": [
-  {
-   "espn_event_id": "401916024",
-   "tipoff_utc": "2026-11-23T17:00Z",
-   "neutral": true,
-   "home": {
-    "name": "Michigan State",
-    "team": "Michigan State",
-    "espn_id": "127"
-   },
-   "away": {
-    "name": "Alcorn State",
-    "team": null,
-    "espn_id": "2016"
-   },
-   "tv": [],
-   "teams": [
-    "Michigan State"
-   ],
-   "players": [
-    {
-     "id": "emma-broliron",
-     "name": "Emma Broliron",
-     "team": "Michigan State"
-    },
-    {
-     "id": "kathy-emma-otto",
-     "name": "Kathy-Emma Otto",
-     "team": "Michigan State"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401916024"
-  },
-  {
-   "espn_event_id": "401923672",
-   "tipoff_utc": "2026-11-23T17:00Z",
-   "neutral": true,
-   "home": {
-    "name": "Middle Tennessee",
-    "team": "Middle Tennessee",
-    "espn_id": "2393"
-   },
-   "away": {
-    "name": "Oregon State",
-    "team": null,
-    "espn_id": "204"
-   },
-   "tv": [],
-   "teams": [
-    "Middle Tennessee"
-   ],
-   "players": [
-    {
-     "id": "nora-ahamadi",
-     "name": "Nora Ahamadi",
-     "team": "Middle Tennessee"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401923672"
-  },
   {
    "espn_event_id": "401923673",
    "tipoff_utc": "2026-11-23T19:30Z",
@@ -758,7 +699,9 @@
     "team": "Robert Morris",
     "espn_id": "2523"
    },
-   "tv": [],
+   "tv": [
+    "BallerTV"
+   ],
    "teams": [
     "Robert Morris"
    ],
@@ -979,6 +922,69 @@
     }
    ],
    "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401917724"
+  },
+  {
+   "espn_event_id": "401915872",
+   "tipoff_utc": "2026-11-26T16:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Robert Morris",
+    "team": "Robert Morris",
+    "espn_id": "2523"
+   },
+   "away": {
+    "name": "Clemson",
+    "team": null,
+    "espn_id": "228"
+   },
+   "tv": [
+    "BallerTV"
+   ],
+   "teams": [
+    "Robert Morris"
+   ],
+   "players": [
+    {
+     "id": "myriam-traore",
+     "name": "Myriam Traoré",
+     "team": "Robert Morris"
+    },
+    {
+     "id": "sira-diarra",
+     "name": "Sira Diarra",
+     "team": "Robert Morris"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401915872"
+  },
+  {
+   "espn_event_id": "401918892",
+   "tipoff_utc": "2026-11-26T17:30Z",
+   "neutral": true,
+   "home": {
+    "name": "Wisconsin",
+    "team": null,
+    "espn_id": "275"
+   },
+   "away": {
+    "name": "Syracuse",
+    "team": "Syracuse",
+    "espn_id": "183"
+   },
+   "tv": [
+    "FloSports"
+   ],
+   "teams": [
+    "Syracuse"
+   ],
+   "players": [
+    {
+     "id": "celaine-ricco",
+     "name": "Célaine Ricco",
+     "team": "Syracuse"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401918892"
   }
  ]
 }
