@@ -1,337 +1,6 @@
 {
- "updated": "2026-11-22T15:05:47.643Z",
+ "updated": "2026-11-23T07:09:33.507Z",
  "games": [
-  {
-   "espn_event_id": "401913867",
-   "tipoff_utc": "2026-11-22T18:00Z",
-   "neutral": true,
-   "home": {
-    "name": "South Florida",
-    "team": null,
-    "espn_id": "58"
-   },
-   "away": {
-    "name": "Texas Tech",
-    "team": "Texas Tech",
-    "espn_id": "2641"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "Texas Tech"
-   ],
-   "players": [
-    {
-     "id": "tahys-da-silva",
-     "name": "Tahys Da Silva",
-     "team": "Texas Tech"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401913867"
-  },
-  {
-   "espn_event_id": "401926016",
-   "tipoff_utc": "2026-11-22T18:00Z",
-   "neutral": false,
-   "home": {
-    "name": "Loyola Maryland",
-    "team": "Loyola Maryland",
-    "espn_id": "2352"
-   },
-   "away": {
-    "name": "Drexel",
-    "team": null,
-    "espn_id": "2182"
-   },
-   "tv": [
-    "ESPN+",
-    "Patriot League TV"
-   ],
-   "teams": [
-    "Loyola Maryland"
-   ],
-   "players": [
-    {
-     "id": "amandine-amorich",
-     "name": "Amandine Amorich",
-     "team": "Loyola Maryland"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401926016"
-  },
-  {
-   "espn_event_id": "401913718",
-   "tipoff_utc": "2026-11-22T18:00Z",
-   "neutral": false,
-   "home": {
-    "name": "Princeton",
-    "team": "Princeton",
-    "espn_id": "163"
-   },
-   "away": {
-    "name": "Georgia Tech",
-    "team": null,
-    "espn_id": "59"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "Princeton"
-   ],
-   "players": [
-    {
-     "id": "sarah-aldeguer",
-     "name": "Sarah Aldeguer",
-     "team": "Princeton"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401913718"
-  },
-  {
-   "espn_event_id": "401918858",
-   "tipoff_utc": "2026-11-22T20:00Z",
-   "neutral": false,
-   "home": {
-    "name": "Southern Miss",
-    "team": null,
-    "espn_id": "2572"
-   },
-   "away": {
-    "name": "Mississippi State",
-    "team": "Mississippi State",
-    "espn_id": "344"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "Mississippi State"
-   ],
-   "players": [
-    {
-     "id": "melissa-guillet",
-     "name": "Melissa Guillet",
-     "team": "Mississippi State"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401918858"
-  },
-  {
-   "espn_event_id": "401918911",
-   "tipoff_utc": "2026-11-22T20:00Z",
-   "neutral": false,
-   "home": {
-    "name": "Minnesota",
-    "team": null,
-    "espn_id": "135"
-   },
-   "away": {
-    "name": "Central Michigan",
-    "team": "Central Michigan",
-    "espn_id": "2117"
-   },
-   "tv": [
-    "B1G+"
-   ],
-   "teams": [
-    "Central Michigan"
-   ],
-   "players": [
-    {
-     "id": "jawelle-daquin",
-     "name": "Jawelle Daquin",
-     "team": "Central Michigan"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401918911"
-  },
-  {
-   "espn_event_id": "401927019",
-   "tipoff_utc": "2026-11-22T20:00Z",
-   "neutral": false,
-   "home": {
-    "name": "Colorado State",
-    "team": "Colorado State",
-    "espn_id": "36"
-   },
-   "away": {
-    "name": "Weber State",
-    "team": "Weber State",
-    "espn_id": "2692"
-   },
-   "tv": [
-    "YouTube"
-   ],
-   "teams": [
-    "Colorado State",
-    "Weber State"
-   ],
-   "players": [
-    {
-     "id": "sophie-sene",
-     "name": "Sophie Sene",
-     "team": "Colorado State"
-    },
-    {
-     "id": "celestine-segretain",
-     "name": "Celestine Segretain",
-     "team": "Weber State"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401927019"
-  },
-  {
-   "espn_event_id": "401923333",
-   "tipoff_utc": "2026-11-22T20:00Z",
-   "neutral": false,
-   "home": {
-    "name": "Tennessee State",
-    "team": null,
-    "espn_id": "2634"
-   },
-   "away": {
-    "name": "UT Arlington",
-    "team": "UT Arlington",
-    "espn_id": "250"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "UT Arlington"
-   ],
-   "players": [
-    {
-     "id": "morane-dossou",
-     "name": "Morane Dossou",
-     "team": "UT Arlington"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401923333"
-  },
-  {
-   "espn_event_id": "401926985",
-   "tipoff_utc": "2026-11-22T22:00Z",
-   "neutral": false,
-   "home": {
-    "name": "UC Riverside",
-    "team": null,
-    "espn_id": "27"
-   },
-   "away": {
-    "name": "Idaho State",
-    "team": "Idaho State",
-    "espn_id": "304"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "Idaho State"
-   ],
-   "players": [
-    {
-     "id": "maeva-gauffrenet",
-     "name": "Maeva Gauffrenet",
-     "team": "Idaho State"
-    },
-    {
-     "id": "aziliz-le-guen",
-     "name": "Aziliz Le Guen",
-     "team": "Idaho State"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401926985"
-  },
-  {
-   "espn_event_id": "401917717",
-   "tipoff_utc": "2026-11-22T22:00Z",
-   "neutral": false,
-   "home": {
-    "name": "San Francisco",
-    "team": "San Francisco",
-    "espn_id": "2539"
-   },
-   "away": {
-    "name": "Cal State Bakersfield",
-    "team": null,
-    "espn_id": "2934"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "San Francisco"
-   ],
-   "players": [
-    {
-     "id": "ines-babaya",
-     "name": "Ines Babaya",
-     "team": "San Francisco"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401917717"
-  },
-  {
-   "espn_event_id": "401912957",
-   "tipoff_utc": "2026-11-22T22:30Z",
-   "neutral": false,
-   "home": {
-    "name": "Tennessee",
-    "team": "Tennessee",
-    "espn_id": "2633"
-   },
-   "away": {
-    "name": "UCLA",
-    "team": null,
-    "espn_id": "26"
-   },
-   "tv": [
-    "ESPN"
-   ],
-   "teams": [
-    "Tennessee"
-   ],
-   "players": [
-    {
-     "id": "harissoum-coulibaly",
-     "name": "Harissoum Coulibaly",
-     "team": "Tennessee"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401912957"
-  },
-  {
-   "espn_event_id": "401906985",
-   "tipoff_utc": "2026-11-23T00:30Z",
-   "neutral": true,
-   "home": {
-    "name": "Kansas State",
-    "team": "Kansas State",
-    "espn_id": "2306"
-   },
-   "away": {
-    "name": "Missouri",
-    "team": null,
-    "espn_id": "142"
-   },
-   "tv": [
-    "ESPN+"
-   ],
-   "teams": [
-    "Kansas State"
-   ],
-   "players": [
-    {
-     "id": "tea-cleante",
-     "name": "Téa Cléante",
-     "team": "Kansas State"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401906985"
-  },
   {
    "espn_event_id": "401916024",
    "tipoff_utc": "2026-11-23T17:00Z",
@@ -928,6 +597,388 @@
     }
    ],
    "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401921393"
+  },
+  {
+   "espn_event_id": "401929116",
+   "tipoff_utc": "2026-11-25T16:00Z",
+   "neutral": false,
+   "home": {
+    "name": "UNC Greensboro",
+    "team": "UNC Greensboro",
+    "espn_id": "2430"
+   },
+   "away": {
+    "name": "Montreat",
+    "team": null,
+    "espn_id": "2410"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "UNC Greensboro"
+   ],
+   "players": [
+    {
+     "id": "salimata-traore",
+     "name": "Salimata Traore",
+     "team": "UNC Greensboro"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401929116"
+  },
+  {
+   "espn_event_id": "401913010",
+   "tipoff_utc": "2026-11-25T17:00Z",
+   "neutral": false,
+   "home": {
+    "name": "Princeton",
+    "team": "Princeton",
+    "espn_id": "163"
+   },
+   "away": {
+    "name": "Rutgers",
+    "team": null,
+    "espn_id": "164"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "Princeton"
+   ],
+   "players": [
+    {
+     "id": "sarah-aldeguer",
+     "name": "Sarah Aldeguer",
+     "team": "Princeton"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401913010"
+  },
+  {
+   "espn_event_id": "401926017",
+   "tipoff_utc": "2026-11-25T18:00Z",
+   "neutral": false,
+   "home": {
+    "name": "Loyola Maryland",
+    "team": "Loyola Maryland",
+    "espn_id": "2352"
+   },
+   "away": {
+    "name": "Washington Adventist",
+    "team": null,
+    "espn_id": "408"
+   },
+   "tv": [
+    "ESPN+",
+    "Patriot League TV"
+   ],
+   "teams": [
+    "Loyola Maryland"
+   ],
+   "players": [
+    {
+     "id": "amandine-amorich",
+     "name": "Amandine Amorich",
+     "team": "Loyola Maryland"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401926017"
+  },
+  {
+   "espn_event_id": "401927039",
+   "tipoff_utc": "2026-11-25T18:00Z",
+   "neutral": false,
+   "home": {
+    "name": "Presbyterian",
+    "team": "Presbyterian",
+    "espn_id": "2506"
+   },
+   "away": {
+    "name": "Furman",
+    "team": null,
+    "espn_id": "231"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "Presbyterian"
+   ],
+   "players": [
+    {
+     "id": "fiona-diomande",
+     "name": "Fiona Diomande",
+     "team": "Presbyterian"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401927039"
+  },
+  {
+   "espn_event_id": "401913835",
+   "tipoff_utc": "2026-11-25T18:00Z",
+   "neutral": false,
+   "home": {
+    "name": "Rice",
+    "team": null,
+    "espn_id": "242"
+   },
+   "away": {
+    "name": "UTRGV",
+    "team": "UTRGV",
+    "espn_id": "292"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "UTRGV"
+   ],
+   "players": [
+    {
+     "id": "lina-fimbo",
+     "name": "Lina Fimbo",
+     "team": "UTRGV"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401913835"
+  },
+  {
+   "espn_event_id": "401915874",
+   "tipoff_utc": "2026-11-25T18:15Z",
+   "neutral": true,
+   "home": {
+    "name": "Stetson",
+    "team": null,
+    "espn_id": "56"
+   },
+   "away": {
+    "name": "Robert Morris",
+    "team": "Robert Morris",
+    "espn_id": "2523"
+   },
+   "tv": [],
+   "teams": [
+    "Robert Morris"
+   ],
+   "players": [
+    {
+     "id": "myriam-traore",
+     "name": "Myriam Traoré",
+     "team": "Robert Morris"
+    },
+    {
+     "id": "sira-diarra",
+     "name": "Sira Diarra",
+     "team": "Robert Morris"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401915874"
+  },
+  {
+   "espn_event_id": "401917722",
+   "tipoff_utc": "2026-11-25T19:00Z",
+   "neutral": false,
+   "home": {
+    "name": "San Francisco",
+    "team": "San Francisco",
+    "espn_id": "2539"
+   },
+   "away": {
+    "name": "Cal State East Bay",
+    "team": null,
+    "espn_id": "499"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "San Francisco"
+   ],
+   "players": [
+    {
+     "id": "ines-babaya",
+     "name": "Ines Babaya",
+     "team": "San Francisco"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401917722"
+  },
+  {
+   "espn_event_id": "401917718",
+   "tipoff_utc": "2026-11-25T20:00Z",
+   "neutral": false,
+   "home": {
+    "name": "Seattle U",
+    "team": null,
+    "espn_id": "2547"
+   },
+   "away": {
+    "name": "Weber State",
+    "team": "Weber State",
+    "espn_id": "2692"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "Weber State"
+   ],
+   "players": [
+    {
+     "id": "celestine-segretain",
+     "name": "Celestine Segretain",
+     "team": "Weber State"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401917718"
+  },
+  {
+   "espn_event_id": "401921390",
+   "tipoff_utc": "2026-11-25T21:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Grand Canyon",
+    "team": "Grand Canyon",
+    "espn_id": "2253"
+   },
+   "away": {
+    "name": "Winthrop",
+    "team": null,
+    "espn_id": "2737"
+   },
+   "tv": [
+    "BallerTV"
+   ],
+   "teams": [
+    "Grand Canyon"
+   ],
+   "players": [
+    {
+     "id": "ines-zounia",
+     "name": "Ines Zounia",
+     "team": "Grand Canyon"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401921390"
+  },
+  {
+   "espn_event_id": "401929205",
+   "tipoff_utc": "2026-11-25T21:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Utah",
+    "team": null,
+    "espn_id": "254"
+   },
+   "away": {
+    "name": "Miami",
+    "team": "Miami",
+    "espn_id": "2390"
+   },
+   "tv": [
+    "BDG Sports Live"
+   ],
+   "teams": [
+    "Miami"
+   ],
+   "players": [
+    {
+     "id": "dayana-mendes",
+     "name": "Dayana Mendes",
+     "team": "Miami"
+    },
+    {
+     "id": "jess-mine-zodia",
+     "name": "Jess-Mine Zodia",
+     "team": "Miami"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401929205"
+  },
+  {
+   "espn_event_id": "401915967",
+   "tipoff_utc": "2026-11-25T21:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Memphis",
+    "team": null,
+    "espn_id": "235"
+   },
+   "away": {
+    "name": "SMU",
+    "team": "SMU",
+    "espn_id": "2567"
+   },
+   "tv": [],
+   "teams": [
+    "SMU"
+   ],
+   "players": [
+    {
+     "id": "adja-kane",
+     "name": "Adja Kane",
+     "team": "SMU"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401915967"
+  },
+  {
+   "espn_event_id": "401923671",
+   "tipoff_utc": "2026-11-25T21:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Montana State",
+    "team": null,
+    "espn_id": "147"
+   },
+   "away": {
+    "name": "Middle Tennessee",
+    "team": "Middle Tennessee",
+    "espn_id": "2393"
+   },
+   "tv": [],
+   "teams": [
+    "Middle Tennessee"
+   ],
+   "players": [
+    {
+     "id": "nora-ahamadi",
+     "name": "Nora Ahamadi",
+     "team": "Middle Tennessee"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401923671"
+  },
+  {
+   "espn_event_id": "401917724",
+   "tipoff_utc": "2026-11-25T22:00Z",
+   "neutral": false,
+   "home": {
+    "name": "Portland",
+    "team": null,
+    "espn_id": "2501"
+   },
+   "away": {
+    "name": "UC Santa Barbara",
+    "team": "UC Santa Barbara",
+    "espn_id": "2540"
+   },
+   "tv": [
+    "ESPN+"
+   ],
+   "teams": [
+    "UC Santa Barbara"
+   ],
+   "players": [
+    {
+     "id": "naomy-zonzon-huyghe",
+     "name": "Naomy Zonzon-Huyghe",
+     "team": "UC Santa Barbara"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401917724"
   }
  ]
 }
