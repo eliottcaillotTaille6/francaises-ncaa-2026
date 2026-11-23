@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:11:28.107Z",
+ "updated": "2026-11-23T10:06:17.817Z",
  "season": "2026-27",
  "games": [
   {
@@ -20736,7 +20736,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917717",
-     "updated": "2026-11-23T07:11:27.732Z"
+     "updated": "2026-11-23T10:02:07.504Z"
     }
    },
    "sources": [
@@ -20813,7 +20813,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918911",
-     "updated": "2026-11-23T07:11:27.662Z"
+     "updated": "2026-11-23T10:02:07.254Z"
     }
    },
    "sources": [
@@ -20893,7 +20893,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926016",
-     "updated": "2026-11-23T07:11:27.689Z"
+     "updated": "2026-11-23T10:02:07.455Z"
     }
    },
    "sources": [
@@ -20970,7 +20970,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913718",
-     "updated": "2026-11-23T07:11:27.745Z"
+     "updated": "2026-11-23T10:02:07.517Z"
     }
    },
    "sources": [
@@ -21050,7 +21050,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926985",
-     "updated": "2026-11-23T07:11:27.625Z"
+     "updated": "2026-11-23T10:02:07.217Z"
     },
     "aziliz-le-guen": {
      "player_id": "aziliz-le-guen",
@@ -21079,7 +21079,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926985",
-     "updated": "2026-11-23T07:11:27.625Z"
+     "updated": "2026-11-23T10:02:07.217Z"
     }
    },
    "sources": [
@@ -21156,7 +21156,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918858",
-     "updated": "2026-11-23T07:11:27.652Z"
+     "updated": "2026-11-23T10:02:07.242Z"
     }
    },
    "sources": [
@@ -21236,7 +21236,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401906985",
-     "updated": "2026-11-23T07:11:27.638Z"
+     "updated": "2026-11-23T10:02:07.229Z"
     }
    },
    "sources": [
@@ -21313,7 +21313,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913867",
-     "updated": "2026-11-23T07:11:27.674Z"
+     "updated": "2026-11-23T10:02:07.441Z"
     }
    },
    "sources": [
@@ -21325,8 +21325,11 @@
     "checked": "2026-11-23"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-23"
+    "url": "https://www.youtube.com/watch?v=BScyrUrHuWg",
+    "title": "USF vs. Texas Tech Highlights | 2026-27 Monster Energy Big 12 Women's Basketball",
+    "channel": "Big 12 Conference",
+    "duration_s": 361,
+    "official": true
    }
   },
   {
@@ -21390,7 +21393,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401912957",
-     "updated": "2026-11-23T07:11:27.715Z"
+     "updated": "2026-11-23T10:02:07.485Z"
     }
    },
    "sources": [
@@ -21405,11 +21408,11 @@
     "channel": "Walter Gaming"
    },
    "highlights": {
-    "url": "https://www.youtube.com/watch?v=vqZgv3KTbp0",
-    "title": "#10 UCLA vs Tennessee Highlights | NCAA Women's Basketball 2026",
-    "channel": "Bác Ngọt Idol",
-    "duration_s": 911,
-    "official": false
+    "url": "https://www.youtube.com/watch?v=N0Fbmw9zJ4A",
+    "title": "UCLA Bruins vs. Tennessee Lady Volunteers | Full Game Highlights | ESPN College Basketball",
+    "channel": "ESPN",
+    "duration_s": 787,
+    "official": true
    }
   },
   {
@@ -21473,7 +21476,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923333",
-     "updated": "2026-11-23T07:11:27.700Z"
+     "updated": "2026-11-23T10:02:07.470Z"
     }
    },
    "sources": [
@@ -21555,7 +21558,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927019",
-     "updated": "2026-11-23T07:11:27.683Z"
+     "updated": "2026-11-23T10:02:07.449Z"
     },
     "celestine-segretain": {
      "player_id": "celestine-segretain",
@@ -21567,7 +21570,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401927019",
-     "updated": "2026-11-23T07:11:27.720Z"
+     "updated": "2026-11-23T10:02:07.492Z"
     }
    },
    "sources": [
