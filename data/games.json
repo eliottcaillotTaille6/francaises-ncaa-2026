@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:18:49.551Z",
+ "updated": "2026-11-24T11:30:11.120Z",
  "season": "2026-27",
  "games": [
   {
@@ -21647,7 +21647,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
-     "updated": "2026-11-24T07:11:38.892Z"
+     "updated": "2026-11-24T11:25:51.482Z"
     },
     "kathy-emma-otto": {
      "player_id": "kathy-emma-otto",
@@ -21659,7 +21659,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
-     "updated": "2026-11-24T07:11:38.892Z"
+     "updated": "2026-11-24T11:25:51.483Z"
     }
    },
    "sources": [
@@ -21671,8 +21671,11 @@
     "checked": "2026-11-24"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-24"
+    "url": "https://www.youtube.com/watch?v=cG7PFeZ9fjY",
+    "title": "Alcorn State vs Michigan State WBB Highlights I Emerald Coast Classic I Impact 89 FM (WDBM)",
+    "channel": "Blake Sekula",
+    "duration_s": 219,
+    "official": false
    }
   },
   {
@@ -21736,7 +21739,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921391",
-     "updated": "2026-11-24T07:11:36.975Z"
+     "updated": "2026-11-24T11:25:51.461Z"
     }
    },
    "sources": [
@@ -21813,7 +21816,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401919077",
-     "updated": "2026-11-24T07:11:52.263Z"
+     "updated": "2026-11-24T11:25:51.586Z"
     }
    },
    "sources": [
@@ -21893,7 +21896,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913729",
-     "updated": "2026-11-24T07:11:42.556Z"
+     "updated": "2026-11-24T11:25:51.507Z"
     },
     "jess-mine-zodia": {
      "player_id": "jess-mine-zodia",
@@ -21922,7 +21925,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913729",
-     "updated": "2026-11-24T07:11:42.556Z"
+     "updated": "2026-11-24T11:25:51.508Z"
     }
    },
    "sources": [
@@ -21930,6 +21933,10 @@
     "fac"
    ],
    "youtube": {
+    "url": null,
+    "checked": "2026-11-24"
+   },
+   "highlights": {
     "url": null,
     "checked": "2026-11-24"
    }
@@ -21978,7 +21985,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923672",
-     "updated": "2026-11-24T07:11:47.653Z"
+     "updated": "2026-11-24T11:25:51.545Z"
     }
    },
    "sources": [
@@ -22051,7 +22058,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918521",
-     "updated": "2026-11-24T07:11:34.533Z"
+     "updated": "2026-11-24T11:25:51.441Z"
     }
    },
    "sources": [
@@ -22128,7 +22135,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923482",
-     "updated": "2026-11-24T07:11:32.429Z"
+     "updated": "2026-11-24T11:25:51.431Z"
     }
    },
    "sources": [
@@ -22140,8 +22147,11 @@
     "checked": "2026-11-24"
    },
    "highlights": {
-    "url": null,
-    "checked": "2026-11-24"
+    "url": "https://www.youtube.com/watch?v=RYI99wz53Vo",
+    "title": "PVAMU vs. Houston Extended Highlights | 2026-27 Monster Energy Big 12 Women's Basketball",
+    "channel": "Big 12 Conference",
+    "duration_s": 523,
+    "official": true
    }
   },
   {
@@ -22205,7 +22215,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915966",
-     "updated": "2026-11-24T07:11:45.186Z"
+     "updated": "2026-11-24T11:25:51.527Z"
     }
    },
    "sources": [
@@ -22213,6 +22223,10 @@
     "fac"
    ],
    "youtube": {
+    "url": null,
+    "checked": "2026-11-24"
+   },
+   "highlights": {
     "url": null,
     "checked": "2026-11-24"
    }
@@ -22261,7 +22275,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923673",
-     "updated": "2026-11-24T07:11:49.666Z"
+     "updated": "2026-11-24T11:25:51.567Z"
     }
    },
    "sources": [
@@ -22334,7 +22348,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913020",
-     "updated": "2026-11-24T07:11:40.472Z"
+     "updated": "2026-11-24T11:25:51.501Z"
     },
     "stella-mavuanga": {
      "player_id": "stella-mavuanga",
@@ -22363,7 +22377,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913020",
-     "updated": "2026-11-24T07:11:40.472Z"
+     "updated": "2026-11-24T11:25:51.501Z"
     }
    },
    "sources": [
@@ -22373,6 +22387,13 @@
    "youtube": {
     "url": null,
     "checked": "2026-11-24"
+   },
+   "highlights": {
+    "url": "https://www.youtube.com/watch?v=XPfNX8Vmt_8",
+    "title": "Xavier vs. Dayton Highlights | 2026-27 BIG EAST Women's Basketball",
+    "channel": "BIG EAST Conference",
+    "duration_s": 559,
+    "official": true
    }
   }
  ]

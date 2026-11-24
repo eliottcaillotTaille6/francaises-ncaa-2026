@@ -8,6 +8,3 @@ _Aucun match manquant._
 
 - Site fac South Carolina désactivé (blocked) : gamecocksonline.com renvoie 403 (protection anti-bot) : non contourné. Calendrier de référence = API ESPN.
 - Box score site fac Miami incomplet (2026-11-23-michigan-at-miami) : 47 points listés pour un score de 58. https://miamihurricanes.com/boxscore/15742
-- Recherche du résumé YouTube (2026-11-23-xavier-at-dayton) : fetch failed
-- Recherche du résumé YouTube (2026-11-23-michigan-at-miami) : fetch failed
-- Recherche du résumé YouTube (2026-11-23-saint-marys-at-smu) : fetch failed
