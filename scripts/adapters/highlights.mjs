@@ -118,7 +118,7 @@ export async function findHighlights(game, names, extra, today) {
   });
   const hits = results(html).filter((v) => isHighlightsOf(v, game, home, away, today));
   const official = (v) => (mentions(v.channel, v.channel, home) || mentions(v.channel, v.channel, away)
-    || /conference|athletics|sports|network|espn|ncaa|march madness|big east|big ten|big 12|big east|\bacc\b|\bsec\b|women'?s basketball|\bwbb\b/i.test(v.channel)) ? 1 : 0;
+    || /conference|athletics|sports|network|espn|ncaa|march madness|big ten|big 12|big east|\bacc\b|\bsec\b|women'?s basketball|\bwbb\b/i.test(v.channel)) ? 1 : 0;
   hits.sort((a, b) => official(b) - official(a) || b.duration_s - a.duration_s);
   const best = hits[0];
   return best
