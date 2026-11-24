@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:30:11.120Z",
+ "updated": "2026-11-24T18:39:57.584Z",
  "season": "2026-27",
  "games": [
   {
@@ -21647,7 +21647,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
-     "updated": "2026-11-24T11:25:51.482Z"
+     "updated": "2026-11-24T18:35:35.641Z"
     },
     "kathy-emma-otto": {
      "player_id": "kathy-emma-otto",
@@ -21659,7 +21659,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916024",
-     "updated": "2026-11-24T11:25:51.483Z"
+     "updated": "2026-11-24T18:35:35.641Z"
     }
    },
    "sources": [
@@ -21739,7 +21739,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921391",
-     "updated": "2026-11-24T11:25:51.461Z"
+     "updated": "2026-11-24T18:35:35.627Z"
     }
    },
    "sources": [
@@ -21816,7 +21816,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401919077",
-     "updated": "2026-11-24T11:25:51.586Z"
+     "updated": "2026-11-24T18:35:36.442Z"
     }
    },
    "sources": [
@@ -21896,7 +21896,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913729",
-     "updated": "2026-11-24T11:25:51.507Z"
+     "updated": "2026-11-24T18:35:35.657Z"
     },
     "jess-mine-zodia": {
      "player_id": "jess-mine-zodia",
@@ -21925,7 +21925,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913729",
-     "updated": "2026-11-24T11:25:51.508Z"
+     "updated": "2026-11-24T18:35:35.657Z"
     }
    },
    "sources": [
@@ -21985,7 +21985,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923672",
-     "updated": "2026-11-24T11:25:51.545Z"
+     "updated": "2026-11-24T18:35:36.411Z"
     }
    },
    "sources": [
@@ -22058,7 +22058,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918521",
-     "updated": "2026-11-24T11:25:51.441Z"
+     "updated": "2026-11-24T18:35:35.612Z"
     }
    },
    "sources": [
@@ -22135,7 +22135,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923482",
-     "updated": "2026-11-24T11:25:51.431Z"
+     "updated": "2026-11-24T18:35:35.604Z"
     }
    },
    "sources": [
@@ -22215,7 +22215,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915966",
-     "updated": "2026-11-24T11:25:51.527Z"
+     "updated": "2026-11-24T18:35:35.670Z"
     }
    },
    "sources": [
@@ -22275,7 +22275,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923673",
-     "updated": "2026-11-24T11:25:51.567Z"
+     "updated": "2026-11-24T18:35:36.429Z"
     }
    },
    "sources": [
@@ -22348,7 +22348,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913020",
-     "updated": "2026-11-24T11:25:51.501Z"
+     "updated": "2026-11-24T18:35:35.652Z"
     },
     "stella-mavuanga": {
      "player_id": "stella-mavuanga",
@@ -22377,7 +22377,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913020",
-     "updated": "2026-11-24T11:25:51.501Z"
+     "updated": "2026-11-24T18:35:35.652Z"
     }
    },
    "sources": [
@@ -22394,6 +22394,54 @@
     "channel": "BIG EAST Conference",
     "duration_s": 559,
     "official": true
+   }
+  },
+  {
+   "id": "2026-11-24-la-salle-at-villanova",
+   "date_et": "2026-11-24",
+   "tipoff_utc": "2026-11-24T16:30Z",
+   "time_local": "11:30 AM",
+   "neutral": false,
+   "home": {
+    "name": "Villanova",
+    "team": null,
+    "score": 65,
+    "espn_id": "222"
+   },
+   "away": {
+    "name": "La Salle",
+    "team": "La Salle",
+    "score": 67,
+    "espn_id": "2325"
+   },
+   "teams": [
+    "La Salle"
+   ],
+   "espn_event_id": "401921151",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921151",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401921151"
+   },
+   "lines": {
+    "jana-mbombo-njoya": {
+     "player_id": "jana-mbombo-njoya",
+     "team": "La Salle",
+     "jersey": "6",
+     "status": "dnp",
+     "starter": false,
+     "reason": "",
+     "stats": null,
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921151",
+     "updated": "2026-11-24T18:35:36.399Z"
+    }
+   },
+   "sources": [
+    "espn"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-24"
    }
   }
  ]
