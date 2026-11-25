@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:19:24.766Z",
+ "updated": "2026-11-25T17:50:37.288Z",
  "season": "2026-27",
  "games": [
   {
@@ -22283,7 +22283,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401926055",
-     "updated": "2026-11-25T07:15:08.146Z"
+     "updated": "2026-11-25T17:46:51.326Z"
     }
    },
    "sources": [
@@ -22360,7 +22360,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918727",
-     "updated": "2026-11-25T07:15:02.135Z"
+     "updated": "2026-11-25T17:46:49.545Z"
     }
    },
    "sources": [
@@ -22437,7 +22437,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911759",
-     "updated": "2026-11-25T07:15:14.443Z"
+     "updated": "2026-11-25T17:46:51.348Z"
     }
    },
    "sources": [
@@ -22517,7 +22517,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921080",
-     "updated": "2026-11-25T07:15:10.243Z"
+     "updated": "2026-11-25T17:46:51.333Z"
     }
    },
    "sources": [
@@ -22580,7 +22580,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401919061",
-     "updated": "2026-11-25T07:15:12.347Z"
+     "updated": "2026-11-25T17:46:51.340Z"
     }
    },
    "sources": [
@@ -22636,7 +22636,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921151",
-     "updated": "2026-11-25T07:15:16.275Z"
+     "updated": "2026-11-25T17:46:51.358Z"
     }
    },
    "sources": [
@@ -22709,7 +22709,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401912995",
-     "updated": "2026-11-25T07:15:20.176Z"
+     "updated": "2026-11-25T17:46:51.382Z"
     }
    },
    "sources": [
@@ -22772,7 +22772,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401923670",
-     "updated": "2026-11-25T07:15:18.078Z"
+     "updated": "2026-11-25T17:46:51.374Z"
     }
    },
    "sources": [
@@ -22846,7 +22846,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911740",
-     "updated": "2026-11-25T07:14:59.901Z"
+     "updated": "2026-11-25T17:46:49.530Z"
     },
     "justine-loubens": {
      "player_id": "justine-loubens",
@@ -22858,7 +22858,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911740",
-     "updated": "2026-11-25T07:14:59.901Z"
+     "updated": "2026-11-25T17:46:49.530Z"
     },
     "marine-dursus": {
      "player_id": "marine-dursus",
@@ -22870,7 +22870,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401911740",
-     "updated": "2026-11-25T07:15:05.700Z"
+     "updated": "2026-11-25T17:46:49.576Z"
     }
    },
    "sources": [
@@ -22936,7 +22936,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921218",
-     "updated": "2026-11-25T07:15:04.268Z"
+     "updated": "2026-11-25T17:46:49.563Z"
     },
     "kathy-emma-otto": {
      "player_id": "kathy-emma-otto",
@@ -22965,7 +22965,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921218",
-     "updated": "2026-11-25T07:15:04.268Z"
+     "updated": "2026-11-25T17:46:49.563Z"
     }
    },
    "sources": [
@@ -22982,6 +22982,83 @@
     "channel": "ACC Digital Network",
     "duration_s": 186,
     "official": true
+   }
+  },
+  {
+   "id": "2026-11-25-southern-at-syracuse",
+   "date_et": "2026-11-25",
+   "tipoff_utc": "2026-11-25T15:00Z",
+   "time_local": "10 AM",
+   "neutral": true,
+   "home": {
+    "name": "Syracuse",
+    "team": "Syracuse",
+    "score": 62,
+    "espn_id": "183"
+   },
+   "away": {
+    "name": "Southern",
+    "team": null,
+    "score": 47,
+    "espn_id": "2582"
+   },
+   "teams": [
+    "Syracuse"
+   ],
+   "espn_event_id": "401921393",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921393",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401921393",
+    "fac": {
+     "Syracuse": {
+      "box": "https://cuse.com/sports/womens-basketball/stats/2026-27/southern/boxscore/19008",
+      "pbp": "https://cuse.com/sports/womens-basketball/stats/2026-27/southern/boxscore/19008"
+     }
+    },
+    "official_box": "https://cuse.com/sports/womens-basketball/stats/2026-27/southern/boxscore/19008"
+   },
+   "lines": {
+    "celaine-ricco": {
+     "player_id": "celaine-ricco",
+     "team": "Syracuse",
+     "jersey": "9",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 19,
+      "pts": 2,
+      "fgm": 1,
+      "fga": 2,
+      "tpm": 0,
+      "tpa": 1,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 3,
+      "stl": 1,
+      "blk": 0,
+      "to": 5,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921393",
+     "updated": "2026-11-25T17:46:51.302Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-25"
+   },
+   "highlights": {
+    "url": null,
+    "checked": "2026-11-25"
    }
   }
  ]

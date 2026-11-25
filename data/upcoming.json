@@ -1,35 +1,6 @@
 {
- "updated": "2026-11-25T07:19:24.764Z",
+ "updated": "2026-11-25T17:50:37.286Z",
  "games": [
-  {
-   "espn_event_id": "401921393",
-   "tipoff_utc": "2026-11-25T15:00Z",
-   "neutral": true,
-   "home": {
-    "name": "Syracuse",
-    "team": "Syracuse",
-    "espn_id": "183"
-   },
-   "away": {
-    "name": "Southern",
-    "team": null,
-    "espn_id": "2582"
-   },
-   "tv": [
-    "FloSports"
-   ],
-   "teams": [
-    "Syracuse"
-   ],
-   "players": [
-    {
-     "id": "celaine-ricco",
-     "name": "Célaine Ricco",
-     "team": "Syracuse"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401921393"
-  },
   {
    "espn_event_id": "401929116",
    "tipoff_utc": "2026-11-25T16:00Z",
@@ -1215,6 +1186,62 @@
     }
    ],
    "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401920270"
+  },
+  {
+   "espn_event_id": "401918005",
+   "tipoff_utc": "2026-11-28T16:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Mississippi State",
+    "team": "Mississippi State",
+    "espn_id": "344"
+   },
+   "away": {
+    "name": "TCU",
+    "team": null,
+    "espn_id": "2628"
+   },
+   "tv": [
+    "ION"
+   ],
+   "teams": [
+    "Mississippi State"
+   ],
+   "players": [
+    {
+     "id": "melissa-guillet",
+     "name": "Melissa Guillet",
+     "team": "Mississippi State"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401918005"
+  },
+  {
+   "espn_event_id": "401913041",
+   "tipoff_utc": "2026-11-28T17:00Z",
+   "neutral": true,
+   "home": {
+    "name": "Providence",
+    "team": null,
+    "espn_id": "2507"
+   },
+   "away": {
+    "name": "George Mason",
+    "team": "George Mason",
+    "espn_id": "2244"
+   },
+   "tv": [],
+   "teams": [
+    "George Mason"
+   ],
+   "players": [
+    {
+     "id": "mary-kate-tshibuabua",
+     "name": "Mary-Kate Tshibuabua",
+     "team": "George Mason"
+    }
+   ],
+   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401913041"
   }
  ]
 }
