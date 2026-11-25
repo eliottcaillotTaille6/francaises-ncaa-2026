@@ -3298,35 +3298,6 @@
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918431",
      "updated": "2026-11-05T15:08:36.234Z"
-    },
-    "marie-diame": {
-     "player_id": "marie-diame",
-     "team": "Tarleton State",
-     "jersey": "17",
-     "status": "played",
-     "starter": false,
-     "reason": "",
-     "stats": {
-      "min": 1,
-      "pts": 0,
-      "fgm": 0,
-      "fga": 0,
-      "tpm": 0,
-      "tpa": 0,
-      "ftm": 0,
-      "fta": 0,
-      "oreb": 0,
-      "dreb": 0,
-      "reb": 0,
-      "ast": 0,
-      "stl": 0,
-      "blk": 0,
-      "to": 0,
-      "pf": 0
-     },
-     "source": "espn",
-     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918431",
-     "updated": "2026-11-05T15:08:36.234Z"
     }
    },
    "sources": [
@@ -7667,35 +7638,6 @@
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917940",
      "updated": "2026-11-09T17:05:40.285Z"
-    },
-    "marie-diame": {
-     "player_id": "marie-diame",
-     "team": "Tarleton State",
-     "jersey": "17",
-     "status": "played",
-     "starter": false,
-     "reason": "",
-     "stats": {
-      "min": 10,
-      "pts": 5,
-      "fgm": 2,
-      "fga": 6,
-      "tpm": 1,
-      "tpa": 3,
-      "ftm": 0,
-      "fta": 0,
-      "oreb": 0,
-      "dreb": 1,
-      "reb": 1,
-      "ast": 1,
-      "stl": 0,
-      "blk": 0,
-      "to": 1,
-      "pf": 2
-     },
-     "source": "espn",
-     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401917940",
-     "updated": "2026-11-09T17:05:40.285Z"
     }
    },
    "sources": [
@@ -10866,35 +10808,6 @@
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918432",
      "updated": "2026-11-13T07:02:08.349Z"
-    },
-    "marie-diame": {
-     "player_id": "marie-diame",
-     "team": "Tarleton State",
-     "jersey": "17",
-     "status": "played",
-     "starter": false,
-     "reason": "",
-     "stats": {
-      "min": 21,
-      "pts": 9,
-      "fgm": 4,
-      "fga": 9,
-      "tpm": 0,
-      "tpa": 3,
-      "ftm": 1,
-      "fta": 3,
-      "oreb": 2,
-      "dreb": 2,
-      "reb": 4,
-      "ast": 3,
-      "stl": 5,
-      "blk": 0,
-      "to": 1,
-      "pf": 1
-     },
-     "source": "espn",
-     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918432",
-     "updated": "2026-11-13T07:02:08.350Z"
     }
    },
    "sources": [
@@ -13177,35 +13090,6 @@
       "stl": 0,
       "blk": 0,
       "to": 1,
-      "pf": 0
-     },
-     "source": "espn",
-     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918433",
-     "updated": "2026-11-15T14:29:56.750Z"
-    },
-    "marie-diame": {
-     "player_id": "marie-diame",
-     "team": "Tarleton State",
-     "jersey": "17",
-     "status": "played",
-     "starter": false,
-     "reason": "",
-     "stats": {
-      "min": 3,
-      "pts": 0,
-      "fgm": 0,
-      "fga": 2,
-      "tpm": 0,
-      "tpa": 1,
-      "ftm": 0,
-      "fta": 0,
-      "oreb": 0,
-      "dreb": 0,
-      "reb": 0,
-      "ast": 0,
-      "stl": 0,
-      "blk": 0,
-      "to": 0,
       "pf": 0
      },
      "source": "espn",
@@ -18351,35 +18235,6 @@
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918434",
      "updated": "2026-11-20T15:54:47.371Z"
     },
-    "marie-diame": {
-     "player_id": "marie-diame",
-     "team": "Tarleton State",
-     "jersey": "17",
-     "status": "played",
-     "starter": false,
-     "reason": "",
-     "stats": {
-      "min": 16,
-      "pts": 2,
-      "fgm": 1,
-      "fga": 4,
-      "tpm": 0,
-      "tpa": 0,
-      "ftm": 0,
-      "fta": 0,
-      "oreb": 2,
-      "dreb": 2,
-      "reb": 4,
-      "ast": 0,
-      "stl": 3,
-      "blk": 0,
-      "to": 2,
-      "pf": 2
-     },
-     "source": "espn",
-     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918434",
-     "updated": "2026-11-20T15:54:47.371Z"
-    },
     "lea-nadolny": {
      "player_id": "lea-nadolny",
      "team": "Louisiana-Monroe",
@@ -20519,35 +20374,6 @@
      "starter": false,
      "reason": "",
      "stats": null,
-     "source": "espn",
-     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918435",
-     "updated": "2026-11-22T15:01:37.344Z"
-    },
-    "marie-diame": {
-     "player_id": "marie-diame",
-     "team": "Tarleton State",
-     "jersey": "17",
-     "status": "played",
-     "starter": false,
-     "reason": "",
-     "stats": {
-      "min": 9,
-      "pts": 0,
-      "fgm": 0,
-      "fga": 2,
-      "tpm": 0,
-      "tpa": 1,
-      "ftm": 0,
-      "fta": 0,
-      "oreb": 0,
-      "dreb": 0,
-      "reb": 0,
-      "ast": 0,
-      "stl": 0,
-      "blk": 0,
-      "to": 1,
-      "pf": 1
-     },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918435",
      "updated": "2026-11-22T15:01:37.344Z"

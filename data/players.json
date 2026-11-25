@@ -1033,9 +1033,9 @@
     "hometown": "Saint-Nazaire",
     "background": "Roche Vendée (NF2) / Notre-Dame du Roc",
     "status": "Ajout (hors liste BeBasket)",
-    "note": "Présentée comme Sénégalaise par wiwsport : binationale probable, formée en France",
+    "note": "Présentée comme Sénégalaise par wiwsport : binationale probable, formée en France · Retirée de la liste par la rédaction le 25 novembre 2026",
     "source": "https://wiwsport.com/2026/06/30/ncaa-marie-diame-sengage-avec-tarleton-state-university/",
-    "active": true,
+    "active": false,
     "espn_athlete_id": "5465503",
     "espn_team_id": "2627"
   },
