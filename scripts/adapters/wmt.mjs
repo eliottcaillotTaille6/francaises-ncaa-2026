@@ -8,7 +8,7 @@ const cleanOpp = (s) => String(s ?? '').replace(/^#\d+\s+/, '').replace(/\s*\(Ex
 
 export async function schedule(src) {
   const url = `https://${src.domain}/website-api/schedule-events?filter%5Bschedule_id%5D=${src.wmt_schedule_id}&per_page=100&sort=datetime&include=scheduleEventResult`;
-  const j = await fetchJSON(url, { ttl: 2 * 3600 });
+  const j = await fetchJSON(url, { ttl: 600 });
   return j.data.map((e) => {
     const r = e.schedule_event_result;
     const hi = r?.winning_score != null ? Math.round(Number(r.winning_score)) : null;

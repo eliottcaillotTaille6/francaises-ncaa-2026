@@ -15,7 +15,7 @@ export async function teamSchedule(teamId) {
   for (const type of [2, 3]) {
     let j;
     try {
-      j = await fetchJSON(`${BASE}/teams/${teamId}/schedule?season=${SEASON_YEAR}&seasontype=${type}`, { ttl: 2 * 3600 });
+      j = await fetchJSON(`${BASE}/teams/${teamId}/schedule?season=${SEASON_YEAR}&seasontype=${type}`, { ttl: 600 });
     } catch {
       continue;
     }

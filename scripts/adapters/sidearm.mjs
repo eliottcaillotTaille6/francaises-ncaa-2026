@@ -12,7 +12,7 @@ const cleanOpp = (s) => strip(s).replace(/^#\d+\s+/, '').replace(/\s*\((?:Exhibi
 
 /** Calendrier normalisé : [{ fac_game_id, date_local, time_local, home_away, opponent, completed, exhibition, us_score, opp_score, box_url }] */
 export async function schedule(src) {
-  const html = await fetchText(src.schedule_url, { ttl: 2 * 3600 });
+  const html = await fetchText(src.schedule_url, { ttl: 600 });
   if (src.platform === 'sidearm-nuxt') {
     const nuxt = extractNuxtData(html);
     const games = nuxt?.pinia?.schedule?.schedules?.[`schedules-womens-basketball,${SEASON}`]?.games;
