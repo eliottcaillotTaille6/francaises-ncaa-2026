@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:06:30.814Z",
+ "updated": "2026-11-27T17:13:31.861Z",
  "season": "2026-27",
  "games": [
   {
@@ -24103,7 +24103,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916120",
-     "updated": "2026-11-27T10:02:27.319Z"
+     "updated": "2026-11-27T17:09:31.692Z"
     }
    },
    "sources": [
@@ -24183,7 +24183,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903571",
-     "updated": "2026-11-27T10:02:27.295Z"
+     "updated": "2026-11-27T17:09:31.673Z"
     }
    },
    "sources": [
@@ -24263,7 +24263,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915872",
-     "updated": "2026-11-27T10:02:27.570Z"
+     "updated": "2026-11-27T17:09:33.187Z"
     },
     "sira-diarra": {
      "player_id": "sira-diarra",
@@ -24292,7 +24292,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401915872",
-     "updated": "2026-11-27T10:02:27.570Z"
+     "updated": "2026-11-27T17:09:33.187Z"
     }
    },
    "sources": [
@@ -24369,7 +24369,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401916119",
-     "updated": "2026-11-27T10:02:27.336Z"
+     "updated": "2026-11-27T17:09:31.707Z"
     }
    },
    "sources": [
@@ -24446,7 +24446,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903558",
-     "updated": "2026-11-27T10:02:27.254Z"
+     "updated": "2026-11-27T17:09:31.635Z"
     },
     "tahara-magassa": {
      "player_id": "tahara-magassa",
@@ -24458,7 +24458,7 @@
      "stats": null,
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401903558",
-     "updated": "2026-11-27T10:02:27.254Z"
+     "updated": "2026-11-27T17:09:31.635Z"
     }
    },
    "sources": [
@@ -24538,7 +24538,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913021",
-     "updated": "2026-11-27T10:02:27.275Z"
+     "updated": "2026-11-27T17:09:31.656Z"
     },
     "stella-mavuanga": {
      "player_id": "stella-mavuanga",
@@ -24567,7 +24567,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401913021",
-     "updated": "2026-11-27T10:02:27.275Z"
+     "updated": "2026-11-27T17:09:31.656Z"
     }
    },
    "sources": [
@@ -24647,7 +24647,7 @@
      },
      "source": "espn",
      "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401918892",
-     "updated": "2026-11-27T10:02:27.352Z"
+     "updated": "2026-11-27T17:09:31.724Z"
     }
    },
    "sources": [
@@ -24664,6 +24664,160 @@
     "channel": "FloCollege | Basketball",
     "duration_s": 38,
     "official": false
+   }
+  },
+  {
+   "id": "2026-11-27-auburn-at-syracuse",
+   "date_et": "2026-11-27",
+   "tipoff_utc": "2026-11-27T15:00Z",
+   "time_local": "10 AM",
+   "neutral": true,
+   "home": {
+    "name": "Syracuse",
+    "team": "Syracuse",
+    "score": 70,
+    "espn_id": "183"
+   },
+   "away": {
+    "name": "Auburn",
+    "team": null,
+    "score": 54,
+    "espn_id": "2"
+   },
+   "teams": [
+    "Syracuse"
+   ],
+   "espn_event_id": "401921394",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921394",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401921394",
+    "fac": {
+     "Syracuse": {
+      "box": "https://cuse.com/sports/womens-basketball/stats/2026-27/auburn/boxscore/19010",
+      "pbp": "https://cuse.com/sports/womens-basketball/stats/2026-27/auburn/boxscore/19010"
+     }
+    },
+    "official_box": "https://cuse.com/sports/womens-basketball/stats/2026-27/auburn/boxscore/19010"
+   },
+   "lines": {
+    "celaine-ricco": {
+     "player_id": "celaine-ricco",
+     "team": "Syracuse",
+     "jersey": "9",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 1,
+      "pts": 0,
+      "fgm": 0,
+      "fga": 0,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 0,
+      "dreb": 0,
+      "reb": 0,
+      "ast": 0,
+      "stl": 0,
+      "blk": 0,
+      "to": 1,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921394",
+     "updated": "2026-11-27T17:09:33.177Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-27"
+   },
+   "highlights": {
+    "url": null,
+    "checked": "2026-11-27"
+   }
+  },
+  {
+   "id": "2026-11-27-vermont-at-george-mason",
+   "date_et": "2026-11-27",
+   "tipoff_utc": "2026-11-27T15:00Z",
+   "time_local": "11 a.m. AST / 10 a.m.",
+   "neutral": true,
+   "home": {
+    "name": "George Mason",
+    "team": "George Mason",
+    "score": 72,
+    "espn_id": "2244"
+   },
+   "away": {
+    "name": "Vermont",
+    "team": null,
+    "score": 66,
+    "espn_id": "261"
+   },
+   "teams": [
+    "George Mason"
+   ],
+   "espn_event_id": "401921081",
+   "links": {
+    "espn_box": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921081",
+    "espn_pbp": "https://www.espn.com/womens-college-basketball/playbyplay/_/gameId/401921081",
+    "fac": {
+     "George Mason": {
+      "box": "https://gomason.com/sports/womens-basketball/stats/2026-27/vermont/boxscore/14270",
+      "pbp": "https://gomason.com/sports/womens-basketball/stats/2026-27/vermont/boxscore/14270#play-by-play"
+     }
+    },
+    "official_box": "https://gomason.com/sports/womens-basketball/stats/2026-27/vermont/boxscore/14270"
+   },
+   "lines": {
+    "mary-kate-tshibuabua": {
+     "player_id": "mary-kate-tshibuabua",
+     "team": "George Mason",
+     "jersey": "19",
+     "status": "played",
+     "starter": false,
+     "reason": "",
+     "stats": {
+      "min": 11,
+      "pts": 4,
+      "fgm": 2,
+      "fga": 2,
+      "tpm": 0,
+      "tpa": 0,
+      "ftm": 0,
+      "fta": 0,
+      "oreb": 1,
+      "dreb": 1,
+      "reb": 2,
+      "ast": 1,
+      "stl": 0,
+      "blk": 0,
+      "to": 0,
+      "pf": 1
+     },
+     "source": "espn",
+     "source_url": "https://www.espn.com/womens-college-basketball/boxscore/_/gameId/401921081",
+     "updated": "2026-11-27T17:09:34.620Z"
+    }
+   },
+   "sources": [
+    "espn",
+    "fac"
+   ],
+   "youtube": {
+    "url": null,
+    "checked": "2026-11-27"
+   },
+   "highlights": {
+    "url": null,
+    "checked": "2026-11-27"
    }
   }
  ]

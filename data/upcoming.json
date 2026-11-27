@@ -1,62 +1,6 @@
 {
- "updated": "2026-11-27T10:06:30.813Z",
+ "updated": "2026-11-27T17:13:31.860Z",
  "games": [
-  {
-   "espn_event_id": "401921394",
-   "tipoff_utc": "2026-11-27T15:00Z",
-   "neutral": true,
-   "home": {
-    "name": "Syracuse",
-    "team": "Syracuse",
-    "espn_id": "183"
-   },
-   "away": {
-    "name": "Auburn",
-    "team": null,
-    "espn_id": "2"
-   },
-   "tv": [
-    "FloSports"
-   ],
-   "teams": [
-    "Syracuse"
-   ],
-   "players": [
-    {
-     "id": "celaine-ricco",
-     "name": "Célaine Ricco",
-     "team": "Syracuse"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401921394"
-  },
-  {
-   "espn_event_id": "401921081",
-   "tipoff_utc": "2026-11-27T15:00Z",
-   "neutral": true,
-   "home": {
-    "name": "George Mason",
-    "team": "George Mason",
-    "espn_id": "2244"
-   },
-   "away": {
-    "name": "Vermont",
-    "team": null,
-    "espn_id": "261"
-   },
-   "tv": [],
-   "teams": [
-    "George Mason"
-   ],
-   "players": [
-    {
-     "id": "mary-kate-tshibuabua",
-     "name": "Mary-Kate Tshibuabua",
-     "team": "George Mason"
-    }
-   ],
-   "espn_url": "https://www.espn.com/womens-college-basketball/game/_/gameId/401921081"
-  },
   {
    "espn_event_id": "401918859",
    "tipoff_utc": "2026-11-27T16:00Z",
