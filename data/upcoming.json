@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T11:04:31.383Z",
+ "updated": "2026-11-28T16:01:52.729Z",
  "games": [
   {
    "espn_event_id": "401918005",
@@ -62,14 +62,14 @@
    "tipoff_utc": "2026-11-28T17:30Z",
    "neutral": true,
    "home": {
-    "name": "Air Force",
-    "team": null,
-    "espn_id": "2005"
-   },
-   "away": {
     "name": "Xavier",
     "team": "Xavier",
     "espn_id": "2752"
+   },
+   "away": {
+    "name": "Air Force",
+    "team": null,
+    "espn_id": "2005"
    },
    "tv": [
     "ESPN+"
