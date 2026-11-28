@@ -2,7 +2,7 @@
 
 Mis à jour le 2026-11-28. Référence : calendrier officiel de chaque fac (ou calendrier ESPN quand le site est illisible). Les matchs d'exhibition sont exclus.
 
-- 27 novembre 2026 — **Central Michigan** vs Tulsa : match enregistré sans ligne de stats. [Calendrier](https://cmuchippewas.com/sports/womens-basketball/schedule/2026-27)
+_Aucun match manquant._
 
 ## Sources en échec ou désactivées
 
